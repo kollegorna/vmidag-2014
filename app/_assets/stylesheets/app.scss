@@ -295,3 +295,35 @@ a {
     float: right;
   }
 }
+
+.footer {
+  padding: 30px 0;
+  text-align: center;
+
+  p {
+    a {
+      color: $color-green-dark;
+      text-decoration: none;
+    }
+  }
+
+  @include breakpoint($breakpoint-large) {
+    padding: 60px 0 0;
+
+    p {
+      margin: 0;
+    }
+
+    .footer-logo {
+      position: fixed;
+      right: 26px;
+      bottom: 60px;
+    }
+  }
+
+  @include breakpoint($breakpoint-largest) {
+    .footer-logo {
+      right: 60px;
+    }
+  }
+}
