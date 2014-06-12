@@ -27,13 +27,11 @@
     <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
   </head>
   <body>
+      {% include header.html %}
 
       {{ content }}
 
-      <footer class="footer">
-        <p><a href="http://www.kollegorna.se">Till dig från oss på Kollegorna.</a></p>
-        <a class="footer-logo" href="http://www.kollegorna.se">{{ 'icon-heart.svg' | image }}</a>
-      </footer>
+      {% include footer.html %}
 
       {% javascript app %}
 

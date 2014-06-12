@@ -99,41 +99,20 @@ a {
   @include clearfix;
   background: rgba($color-green-dark, .9);
   height: 69px;
+  padding: 20px;
   position: fixed;
+  text-align: right;
   width: 100%;
   z-index: 10;
 
-  @include breakpoint($breakpoint-large) {
-    background: none;
-    height: auto;
-    position: relative;
-  }
-}
-
-.header-links {
-  @include clearfix;
-  list-style: none;
-  margin: 0;
-  padding: 20px;
-
-  li {
-    float: right;
-    margin: 0;
-    padding-left: 20px;
+  a {
+    display: inline-block;
+    margin-left: 20px;
 
     &:first-child {
-      a {
-        padding-top: 3px;
-      }
+      margin-left: 0;
+      padding-top: 3px;
     }
-
-    &:last-child {
-      padding-left: 0;
-    }
-  }
-
-  a {
-    display: block;
   }
 
   img {
@@ -142,52 +121,35 @@ a {
   }
 
   @include breakpoint($breakpoint-large) {
+    background: none;
+    height: auto;
     padding: 0;
     position: fixed;
     right: 26px;
     text-align: left;
     top: 60px;
-
-    li {
-      display: block;
-      float: none;
-      padding: 0;
-      margin: 0 0 50px;
-
-      &:first-child {
-        padding: 0;
-        a {
-          padding-top: 17px;
-        }
-
-        img {
-          max-width: 24px;
-        }
-      }
-
-      &:last-child {
-        padding: 0;
-        margin-bottom: 0;
-
-        a {
-          padding-top: 14px;
-        }
-
-        img {
-          max-width: 24px;
-        }
-      }
-
-
-    }
+    width: auto;
 
     a {
       @include border-radius(50%);
       background: $color-green-dark;
       display: block;
       height: 52px;
+      margin: 0 0 50px;
       text-align: center;
       width: 52px;
+
+      &:first-child {
+        padding-top: 17px;
+      }
+
+      &:last-child {
+        padding-top: 14px;
+      }
+    }
+
+    img {
+      max-width: 24px;
     }
   }
 
