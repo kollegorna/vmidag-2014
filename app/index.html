@@ -3,140 +3,40 @@ layout: default
 title: VM Idag
 ---
 
-
 <section class="matches">
 
-  <h1 class="matches__heading matches__heading--today">Dagens matcher i fotbolls-VM</h1>
-
-  <article class="match">
-    <time class="match__time">
-      22:00
-    </time>
-
-    <h4 class="match__group">
-      A
-    </h4>
-
-    <h3 class="match__teams">
-      <span class="match__teams__home">
-        Brasilien
-      </span>
-      –
-      <span class="match__teams__away">
-        Kroatien
-      </span>
-    </h3>
-
-    <ul class="match__tv">
-      <li><a href="http://bit.ly/vmidag2014-svt1">SVT1</a></li>
-      <li><a href="http://bit.ly/vmidag2014-svtplay">SVT Play</a></li>
-    </ul>
-  </article>
-
+  <!--<h1 class="matches__heading matches__heading--today">Dagens matcher i fotbolls-VM</h1>
   <h2 class="matches__heading matches__heading--today">I morgon</h2>
+  <h2 class="matches__heading matches__heading--today">Lördag 14/6</h2>-->
 
-  <article class="match">
-    <time class="match__time">
-      18:00
-    </time>
+  {% for match in site.data.schedule %}
+    <article class="match">
+      <time class="match__time">
+        {{ match.date }}
+      </time>
 
-    <h4 class="match__group">
-      A
-    </h4>
+      <h4 class="match__group">
+        {{ match.type }} {{ match.group }}
+      </h4>
 
-    <h3 class="match__teams">
-      <span class="match__teams__home">
-        Mexiko
-      </span>
-      –
-      <span class="match__teams__away">
-        Kamerun
-      </span>
-    </h3>
+      <h3 class="match__teams">
+        <span class="match__teams__home">
+          {{ match.home_team }}
+        </span>
+        –
+        <span class="match__teams__away">
+          {{ match.away_team }}
+        </span>
+      </h3>
 
-    <ul class="match__tv">
-      <li><a href="http://bit.ly/vmidag2014-tv4">TV4</a></li>
-      <li><a href="http://bit.ly/vmidag2014-tv4play">TV4 Play</a></li>
-      <li><a href="http://bit.ly/vmidag2014-fotbollskanalen">Fotbollskanalen</a></li>
-    </ul>
-  </article>
+      <!--<ul class="match__tv">
+        <li><a href="http://bit.ly/vmidag2014-svt1">SVT1</a></li>
+        <li><a href="http://bit.ly/vmidag2014-svtplay">SVT Play</a></li>
+      </ul>-->
 
-  <article class="match">
-    <time class="match__time">
-      21:00
-    </time>
-
-    <h4 class="match__group">
-      B
-    </h4>
-
-    <h3 class="match__teams">
-      <span class="match__teams__home">
-        Spanien
-      </span>
-      –
-      <span class="match__teams__away">
-        Holland
-      </span>
-    </h3>
-
-    <ul class="match__tv">
-      <li><a href="http://bit.ly/vmidag2014-svt1">SVT1</a></li>
-      <li><a href="http://bit.ly/vmidag2014-svtplay">SVT Play</a></li>
-    </ul>
-  </article>
-
-  <article class="match">
-    <time class="match__time">
-      23:55
-    </time>
-
-    <h4 class="match__group">
-      B
-    </h4>
-
-    <h3 class="match__teams">
-      <span class="match__teams__home">
-        Chile
-      </span>
-      –
-      <span class="match__teams__away">
-        Australien
-      </span>
-    </h3>
-
-    <ul class="match__tv">
-      <li><a href="http://bit.ly/vmidag2014-tv4">TV4</a></li>
-      <li><a href="http://bit.ly/vmidag2014-tv4play">TV4 Play</a></li>
-      <li><a href="http://bit.ly/vmidag2014-fotbollskanalen">Fotbollskanalen</a></li>
-    </ul>
-  </article>
-
-  <h2 class="matches__heading matches__heading--today">Lördag 14/6</h2>
-
-  <article class="match">
-    <time class="match__time">
-      18:00
-    </time>
-
-    <h4 class="match__group">
-      C
-    </h4>
-
-    <h3 class="match__teams">
-      <span class="match__teams__home">
-        Colombia
-      </span>
-      –
-      <span class="match__teams__away">
-        Grekland
-      </span>
-    </h3>
-
-    <ul class="match__tv">
-      <li><a href="http://bit.ly/vmidag2014-svt2">SVT2</a></li>
-      <li><a href="http://bit.ly/vmidag2014-svtplay">SVT Play</a></li>
-    </ul>
-  </article>
-
+      <div class="match__tv">
+        {{ match.channels }}
+      </div>
+    </article>
+  {% endfor %}
 </section>
