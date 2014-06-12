@@ -1,0 +1,513 @@
+
+- date: 2014-06-12 22:00
+  type: Gruppmatch
+  group: A
+  home_team: Brasilien
+  away_team: Kroatien
+  channels: SVT 1, SVT Play
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-13 18:00
+  type: Gruppmatch
+  group: A
+  home_team: Mexiko
+  away_team: Kamerun
+  channels: TV4, Fotbollskanalen.se
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-13 21:00
+  type: Gruppmatch
+  group: B
+  home_team: Spanien
+  away_team: Holland
+  channels: SVT 1, SVT Play
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-13 23:55
+  type: Gruppmatch
+  group: B
+  home_team: Chile
+  away_team: Australien
+  channels: TV4, Fotbollskanalen.se
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-14 18:00
+  type: Gruppmatch
+  group: C
+  home_team: Colombia
+  away_team: Grekland
+  channels: SVT 2, SVT Play
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-14 21:00
+  type: Gruppmatch
+  group: D
+  home_team: Uruguay
+  away_team: Costa Rica
+  channels: TV4, Fotbollskanalen.se
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-14 23:55
+  type: Gruppmatch
+  group: D
+  home_team: England
+  away_team: Italien
+  channels: TV4, Fotbollskanalen.se
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-14 03:00
+  type: Gruppmatch
+  group: C
+  home_team: Elfenbenskusten
+  away_team: Japan
+  channels: TV4, Fotbollskanalen.se
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-15 18:00
+  type: Gruppmatch
+  group: E
+  home_team: Schweiz
+  away_team: Ecuador
+  channels: TV4, Fotbollskanalen.se
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-15 21:00
+  type: Gruppmatch
+  group: E
+  home_team: Frankrike
+  away_team: Honduras
+  channels: SVT 1, SVT Play
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-15 23:55
+  type: Gruppmatch
+  group: F
+  home_team: Argentina
+  away_team: Bosnien-Hercegovina
+  channels: TV4, Fotbollskanalen.se
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-16 18:00
+  type: Gruppmatch
+  group: G
+  home_team: Tyskland
+  away_team: Portugal
+  channels: SVT 2, SVT Play
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-16 21:00
+  type: Gruppmatch
+  group: F
+  home_team: Iran
+  away_team: Nigeria
+  channels: TV4, Fotbollskanalen.se
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-16 23:55
+  type: Gruppmatch
+  group: G
+  home_team: Ghana
+  away_team: USA
+  channels: SVT 1, SVT Play
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-17 18:00
+  type: Gruppmatch
+  group: H
+  home_team: Belgien
+  away_team: Algeriet
+  channels: SVT 2, SVT Play
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-17 21:00
+  type: Gruppmatch
+  group: A
+  home_team: Brasilien
+  away_team: Mexiko
+  channels: TV4, Fotbollskanalen.se
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-17 23:55
+  type: Gruppmatch
+  group: H
+  home_team: Ryssland
+  away_team: Sydkorea
+  channels: SVT 1, SVT Play
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-18 18:00
+  type: Gruppmatch
+  group: B
+  home_team: Australien
+  away_team: Holland
+  channels: SVT 2, SVT Play
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-18 21:00
+  type: Gruppmatch
+  group: B
+  home_team: Spanien
+  away_team: Chile
+  channels: TV4, Fotbollskanalen.se
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-18 23:55
+  type: Gruppmatch
+  group: A
+  home_team: Kamerun
+  away_team: Kroatien
+  channels: SVT 1, SVT Play
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-19 18:00
+  type: Gruppmatch
+  group: C
+  home_team: Colombia
+  away_team: Elfenbenskusten
+  channels: TV4, Fotbollskanalen.se
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-19 21:00
+  type: Gruppmatch
+  group: D
+  home_team: Uruguay
+  away_team: England
+  channels: SVT 1, SVT Play
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-19 23:55
+  type: Gruppmatch
+  group: C
+  home_team: Japan
+  away_team: Grekland
+  channels: TV4, Fotbollskanalen.se
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-20 18:00
+  type: Gruppmatch
+  group: D
+  home_team: Italien
+  away_team: Costa Rica
+  channels: SVT 2, SVT Play
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-20 21:00
+  type: Gruppmatch
+  group: E
+  home_team: Schweiz
+  away_team: Frankrike
+  channels: TV4, Fotbollskanalen.se
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-20 23:55
+  type: Gruppmatch
+  group: E
+  home_team: Honduras
+  away_team: Ecuador
+  channels: SVT 1, SVT Play
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-21 18:00
+  type: Gruppmatch
+  group: F
+  home_team: Argentina
+  away_team: Iran
+  channels: TV4, Fotbollskanalen.se
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-21 21:00
+  type: Gruppmatch
+  group: G
+  home_team: Tyskland
+  away_team: Ghana
+  channels: SVT 1, SVT Play
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-21 23:55
+  type: Gruppmatch
+  group: F
+  home_team: Nigeria
+  away_team: Bosnien-Hercegovina
+  channels: TV4, Fotbollskanalen.se
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-22 18:00
+  type: Gruppmatch
+  group: H
+  home_team: Belgien
+  away_team: Ryssland
+  channels: SVT 2, SVT Play
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-22 21:00
+  type: Gruppmatch
+  group: H
+  home_team: Sydkorea
+  away_team: Algeriet
+  channels: TV4, Fotbollskanalen.se
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-22 23:55
+  type: Gruppmatch
+  group: G
+  home_team: USA
+  away_team: Portugal
+  channels: SVT 1, SVT Play
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-23 18:00
+  type: Gruppmatch
+  group: B
+  home_team: Holland
+  away_team: Chile
+  channels: TV4, Fotbollskanalen.se
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-23 18:00
+  type: Gruppmatch
+  group: B
+  home_team: Australien
+  away_team: Spanien
+  channels: TV12, Fotbollskanalen.se
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-23 22:00
+  type: Gruppmatch
+  group: A
+  home_team: Kamerun
+  away_team: Brasilien
+  channels: SVT 1, SVT Play
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-23 22:00
+  type: Gruppmatch
+  group: A
+  home_team: Kroatien
+  away_team: Mexiko
+  channels: SVT 24, SVT Play
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-24 18:00
+  type: Gruppmatch
+  group: D
+  home_team: Costa Rica
+  away_team: England
+  channels: Kunskapskanalen
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-24 18:00
+  type: Gruppmatch
+  group: D
+  home_team: Italien
+  away_team: Uruguay
+  channels: SVT 2, SVT Play
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-24 22:00
+  type: Gruppmatch
+  group: C
+  home_team: Grekland
+  away_team: Elfenbenskusten
+  channels: TV4, Fotbollskanalen.se
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-24 22:00
+  type: Gruppmatch
+  group: C
+  home_team: Japan
+  away_team: Colombia
+  channels: TV12, Fotbollskanalen.se
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-25 18:00
+  type: Gruppmatch
+  group: F
+  home_team: Bosnien-Hercegovina
+  away_team: Iran
+  channels: TV12, Fotbollskanalen.se
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-25 18:00
+  type: Gruppmatch
+  group: F
+  home_team: Nigeria
+  away_team: Argentina
+  channels: TV4, Fotbollskanalen.se
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-25 22:00
+  type: Gruppmatch
+  group: E
+  home_team: Ecuador
+  away_team: Frankrike
+  channels: SVT 1, SVT Play
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-25 22:00
+  type: Gruppmatch
+  group: E
+  home_team: Honduras
+  away_team: Schweiz
+  channels: SVT 24, SVT Play
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-26 18:00
+  type: Gruppmatch
+  group: G
+  home_team: Portugal
+  away_team: Ghana
+  channels: SVT 2, SVT Play
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-26 18:00
+  type: Gruppmatch
+  group: G
+  home_team: USA
+  away_team: Tyskland
+  channels: Kunskapskanalen
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-26 22:00
+  type: Gruppmatch
+  group: H
+  home_team: Algeriet
+  away_team: Ryssland
+  channels: TV12, Fotbollskanalen.se
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-26 22:00
+  type: Gruppmatch
+  group: H
+  home_team: Sydkorea
+  away_team: Belgien
+  channels: TV4, Fotbollskanalen.se
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-28 18:00
+  type: Åttondelsfinal
+  group: ~
+  home_team: 1A
+  away_team: 2B
+  channels: SVT 2, SVT Play
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-28 22:00
+  type: Åttondelsfinal
+  group: ~
+  home_team: 1C
+  away_team: 2D
+  channels: TV4, Fotbollskanalen.se
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-29 18:00
+  type: Åttondelsfinal
+  group: ~
+  home_team: 1B
+  away_team: 2A
+  channels: TV4, Fotbollskanalen.se
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-29 22:00
+  type: Åttondelsfinal
+  group: ~
+  home_team: 1D
+  away_team: 2C
+  channels: SVT 1, SVT Play
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-30 18:00
+  type: Åttondelsfinal
+  group: ~
+  home_team: 1E
+  away_team: 2F
+  channels: SVT 2, SVT Play
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-30 22:00
+  type: Åttondelsfinal
+  group: ~
+  home_team: 1G
+  away_team: 2H
+  channels: TV4, Fotbollskanalen.se
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-01 18:00
+  type: Åttondelsfinal
+  group: ~
+  home_team: 1F
+  away_team: 2E
+  channels: TV4, Fotbollskanalen.se
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-01 22:00
+  type: Åttondelsfinal
+  group: ~
+  home_team: 1H
+  away_team: 2G
+  channels: SVT 1, SVT Play
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-04 18:00
+  type: Kvartsfinal 1
+  group: ~
+  home_team: ~
+  away_team: ~
+  channels: SVT 2, SVT Play
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-04 22:00
+  type: Kvartsfinal 2
+  group: ~
+  home_team: ~
+  away_team: ~
+  channels: TV4, Fotbollskanalen.se
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-05 18:00
+  type: Kvartsfinal 3
+  group: ~
+  home_team: ~
+  away_team: ~
+  channels: TV4, Fotbollskanalen.se
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-05 22:00
+  type: Kvartsfinal 4
+  group: ~
+  home_team: ~
+  away_team: ~
+  channels: SVT 1, SVT Play
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-08 22:00
+  type: Semifinal 1
+  group: ~
+  home_team: ~
+  away_team: ~
+  channels: TV4, Fotbollskanalen.se
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-09 22:00
+  type: Semifinal 2
+  group: ~
+  home_team: ~
+  away_team: ~
+  channels: SVT 1, SVT Play
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-12 22:00
+  type: Bronsmatch
+  group: ~
+  home_team: ~
+  away_team: ~
+  channels: SVT 1, SVT Play
+  home_goals: ~
+  away_goals: ~
+- date: 2014-06-13 21:00
+  type: Final
+  group: ~
+  home_team: ~
+  away_team: ~
+  channels: TV4, Fotbollskanalen.se
+  home_goals: ~
+  away_goals: ~
