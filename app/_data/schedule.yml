@@ -1,6 +1,6 @@
 
 - date: 2014-06-12 22:00
-  type: Gruppmatch
+  type: Grupp
   group: A
   home_team: Brasilien
   away_team: Kroatien
@@ -8,7 +8,7 @@
   home_goals: ~
   away_goals: ~
 - date: 2014-06-13 18:00
-  type: Gruppmatch
+  type: Grupp
   group: A
   home_team: Mexiko
   away_team: Kamerun
@@ -16,7 +16,7 @@
   home_goals: ~
   away_goals: ~
 - date: 2014-06-13 21:00
-  type: Gruppmatch
+  type: Grupp
   group: B
   home_team: Spanien
   away_team: Holland
@@ -24,7 +24,7 @@
   home_goals: ~
   away_goals: ~
 - date: 2014-06-13 23:55
-  type: Gruppmatch
+  type: Grupp
   group: B
   home_team: Chile
   away_team: Australien
@@ -32,7 +32,7 @@
   home_goals: ~
   away_goals: ~
 - date: 2014-06-14 18:00
-  type: Gruppmatch
+  type: Grupp
   group: C
   home_team: Colombia
   away_team: Grekland
@@ -40,7 +40,7 @@
   home_goals: ~
   away_goals: ~
 - date: 2014-06-14 21:00
-  type: Gruppmatch
+  type: Grupp
   group: D
   home_team: Uruguay
   away_team: Costa Rica
@@ -48,7 +48,7 @@
   home_goals: ~
   away_goals: ~
 - date: 2014-06-14 23:55
-  type: Gruppmatch
+  type: Grupp
   group: D
   home_team: England
   away_team: Italien
@@ -56,7 +56,7 @@
   home_goals: ~
   away_goals: ~
 - date: 2014-06-14 03:00
-  type: Gruppmatch
+  type: Grupp
   group: C
   home_team: Elfenbenskusten
   away_team: Japan
@@ -64,7 +64,7 @@
   home_goals: ~
   away_goals: ~
 - date: 2014-06-15 18:00
-  type: Gruppmatch
+  type: Grupp
   group: E
   home_team: Schweiz
   away_team: Ecuador
@@ -72,7 +72,7 @@
   home_goals: ~
   away_goals: ~
 - date: 2014-06-15 21:00
-  type: Gruppmatch
+  type: Grupp
   group: E
   home_team: Frankrike
   away_team: Honduras
@@ -80,7 +80,7 @@
   home_goals: ~
   away_goals: ~
 - date: 2014-06-15 23:55
-  type: Gruppmatch
+  type: Grupp
   group: F
   home_team: Argentina
   away_team: Bosnien-Hercegovina
@@ -88,7 +88,7 @@
   home_goals: ~
   away_goals: ~
 - date: 2014-06-16 18:00
-  type: Gruppmatch
+  type: Grupp
   group: G
   home_team: Tyskland
   away_team: Portugal
@@ -96,7 +96,7 @@
   home_goals: ~
   away_goals: ~
 - date: 2014-06-16 21:00
-  type: Gruppmatch
+  type: Grupp
   group: F
   home_team: Iran
   away_team: Nigeria
@@ -104,7 +104,7 @@
   home_goals: ~
   away_goals: ~
 - date: 2014-06-16 23:55
-  type: Gruppmatch
+  type: Grupp
   group: G
   home_team: Ghana
   away_team: USA
@@ -112,7 +112,7 @@
   home_goals: ~
   away_goals: ~
 - date: 2014-06-17 18:00
-  type: Gruppmatch
+  type: Grupp
   group: H
   home_team: Belgien
   away_team: Algeriet
@@ -120,7 +120,7 @@
   home_goals: ~
   away_goals: ~
 - date: 2014-06-17 21:00
-  type: Gruppmatch
+  type: Grupp
   group: A
   home_team: Brasilien
   away_team: Mexiko
@@ -128,7 +128,7 @@
   home_goals: ~
   away_goals: ~
 - date: 2014-06-17 23:55
-  type: Gruppmatch
+  type: Grupp
   group: H
   home_team: Ryssland
   away_team: Sydkorea
@@ -136,7 +136,7 @@
   home_goals: ~
   away_goals: ~
 - date: 2014-06-18 18:00
-  type: Gruppmatch
+  type: Grupp
   group: B
   home_team: Australien
   away_team: Holland
@@ -144,7 +144,7 @@
   home_goals: ~
   away_goals: ~
 - date: 2014-06-18 21:00
-  type: Gruppmatch
+  type: Grupp
   group: B
   home_team: Spanien
   away_team: Chile
@@ -152,7 +152,7 @@
   home_goals: ~
   away_goals: ~
 - date: 2014-06-18 23:55
-  type: Gruppmatch
+  type: Grupp
   group: A
   home_team: Kamerun
   away_team: Kroatien
@@ -160,7 +160,7 @@
   home_goals: ~
   away_goals: ~
 - date: 2014-06-19 18:00
-  type: Gruppmatch
+  type: Grupp
   group: C
   home_team: Colombia
   away_team: Elfenbenskusten
@@ -168,7 +168,7 @@
   home_goals: ~
   away_goals: ~
 - date: 2014-06-19 21:00
-  type: Gruppmatch
+  type: Grupp
   group: D
   home_team: Uruguay
   away_team: England
@@ -176,7 +176,7 @@
   home_goals: ~
   away_goals: ~
 - date: 2014-06-19 23:55
-  type: Gruppmatch
+  type: Grupp
   group: C
   home_team: Japan
   away_team: Grekland
@@ -184,7 +184,7 @@
   home_goals: ~
   away_goals: ~
 - date: 2014-06-20 18:00
-  type: Gruppmatch
+  type: Grupp
   group: D
   home_team: Italien
   away_team: Costa Rica
@@ -192,7 +192,7 @@
   home_goals: ~
   away_goals: ~
 - date: 2014-06-20 21:00
-  type: Gruppmatch
+  type: Grupp
   group: E
   home_team: Schweiz
   away_team: Frankrike
@@ -200,7 +200,7 @@
   home_goals: ~
   away_goals: ~
 - date: 2014-06-20 23:55
-  type: Gruppmatch
+  type: Grupp
   group: E
   home_team: Honduras
   away_team: Ecuador
@@ -208,7 +208,7 @@
   home_goals: ~
   away_goals: ~
 - date: 2014-06-21 18:00
-  type: Gruppmatch
+  type: Grupp
   group: F
   home_team: Argentina
   away_team: Iran
@@ -216,7 +216,7 @@
   home_goals: ~
   away_goals: ~
 - date: 2014-06-21 21:00
-  type: Gruppmatch
+  type: Grupp
   group: G
   home_team: Tyskland
   away_team: Ghana
@@ -224,7 +224,7 @@
   home_goals: ~
   away_goals: ~
 - date: 2014-06-21 23:55
-  type: Gruppmatch
+  type: Grupp
   group: F
   home_team: Nigeria
   away_team: Bosnien-Hercegovina
@@ -232,7 +232,7 @@
   home_goals: ~
   away_goals: ~
 - date: 2014-06-22 18:00
-  type: Gruppmatch
+  type: Grupp
   group: H
   home_team: Belgien
   away_team: Ryssland
@@ -240,7 +240,7 @@
   home_goals: ~
   away_goals: ~
 - date: 2014-06-22 21:00
-  type: Gruppmatch
+  type: Grupp
   group: H
   home_team: Sydkorea
   away_team: Algeriet
@@ -248,7 +248,7 @@
   home_goals: ~
   away_goals: ~
 - date: 2014-06-22 23:55
-  type: Gruppmatch
+  type: Grupp
   group: G
   home_team: USA
   away_team: Portugal
@@ -256,7 +256,7 @@
   home_goals: ~
   away_goals: ~
 - date: 2014-06-23 18:00
-  type: Gruppmatch
+  type: Grupp
   group: B
   home_team: Holland
   away_team: Chile
@@ -264,7 +264,7 @@
   home_goals: ~
   away_goals: ~
 - date: 2014-06-23 18:00
-  type: Gruppmatch
+  type: Grupp
   group: B
   home_team: Australien
   away_team: Spanien
@@ -272,7 +272,7 @@
   home_goals: ~
   away_goals: ~
 - date: 2014-06-23 22:00
-  type: Gruppmatch
+  type: Grupp
   group: A
   home_team: Kamerun
   away_team: Brasilien
@@ -280,7 +280,7 @@
   home_goals: ~
   away_goals: ~
 - date: 2014-06-23 22:00
-  type: Gruppmatch
+  type: Grupp
   group: A
   home_team: Kroatien
   away_team: Mexiko
@@ -288,7 +288,7 @@
   home_goals: ~
   away_goals: ~
 - date: 2014-06-24 18:00
-  type: Gruppmatch
+  type: Grupp
   group: D
   home_team: Costa Rica
   away_team: England
@@ -296,7 +296,7 @@
   home_goals: ~
   away_goals: ~
 - date: 2014-06-24 18:00
-  type: Gruppmatch
+  type: Grupp
   group: D
   home_team: Italien
   away_team: Uruguay
@@ -304,7 +304,7 @@
   home_goals: ~
   away_goals: ~
 - date: 2014-06-24 22:00
-  type: Gruppmatch
+  type: Grupp
   group: C
   home_team: Grekland
   away_team: Elfenbenskusten
@@ -312,7 +312,7 @@
   home_goals: ~
   away_goals: ~
 - date: 2014-06-24 22:00
-  type: Gruppmatch
+  type: Grupp
   group: C
   home_team: Japan
   away_team: Colombia
@@ -320,7 +320,7 @@
   home_goals: ~
   away_goals: ~
 - date: 2014-06-25 18:00
-  type: Gruppmatch
+  type: Grupp
   group: F
   home_team: Bosnien-Hercegovina
   away_team: Iran
@@ -328,7 +328,7 @@
   home_goals: ~
   away_goals: ~
 - date: 2014-06-25 18:00
-  type: Gruppmatch
+  type: Grupp
   group: F
   home_team: Nigeria
   away_team: Argentina
@@ -336,7 +336,7 @@
   home_goals: ~
   away_goals: ~
 - date: 2014-06-25 22:00
-  type: Gruppmatch
+  type: Grupp
   group: E
   home_team: Ecuador
   away_team: Frankrike
@@ -344,7 +344,7 @@
   home_goals: ~
   away_goals: ~
 - date: 2014-06-25 22:00
-  type: Gruppmatch
+  type: Grupp
   group: E
   home_team: Honduras
   away_team: Schweiz
@@ -352,7 +352,7 @@
   home_goals: ~
   away_goals: ~
 - date: 2014-06-26 18:00
-  type: Gruppmatch
+  type: Grupp
   group: G
   home_team: Portugal
   away_team: Ghana
@@ -360,7 +360,7 @@
   home_goals: ~
   away_goals: ~
 - date: 2014-06-26 18:00
-  type: Gruppmatch
+  type: Grupp
   group: G
   home_team: USA
   away_team: Tyskland
@@ -368,7 +368,7 @@
   home_goals: ~
   away_goals: ~
 - date: 2014-06-26 22:00
-  type: Gruppmatch
+  type: Grupp
   group: H
   home_team: Algeriet
   away_team: Ryssland
@@ -376,7 +376,7 @@
   home_goals: ~
   away_goals: ~
 - date: 2014-06-26 22:00
-  type: Gruppmatch
+  type: Grupp
   group: H
   home_team: Sydkorea
   away_team: Belgien
