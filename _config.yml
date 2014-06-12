@@ -3,7 +3,7 @@ source:      ./app
 destination: ./dist
 
 # Setup
-name: TITLE
+name: VM Idag
 permalink: /blog/:year/:month/:title/
 gems: [sass, compass, breakpoint, uglifier, jekyll-assets, jekyll-assets/compass]
 markdown: redcarpet
