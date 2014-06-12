@@ -10,10 +10,13 @@ $(function() {
     $('.match__time',this).text(match_time);
 
     if (i == 0) {
-      $(this).before('<h2 class="matches__heading matches__heading--today">VM Idag</h2>');
+      //$(this).before('<h2 class="matches__heading matches__heading--today">VM Idag</h2>');
+      $(this).remove();
     } else if (i == 1) {
+      $(this).before('<h2 class="matches__heading matches__heading--today">VM Idag</h2>');
+    } else if (i == 4) {
       $(this).before('<h2 class="matches__heading matches__heading--tomorrow">I morgon</h2>');
-    } else if (i > 3) {
+    } else if (i > 4) {
       if (previous_date !== match_date) {
         $(this).before('<h2 class="matches__heading">' + match_date + '</h2>');
       }
