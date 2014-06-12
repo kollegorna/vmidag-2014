@@ -1,7 +1,7 @@
-// *= require bower_components/normalize-css/normalize
-
 @import "compass";
+@import "bower_components/normalize-scss/normalize";
 
 body {
-  background: image-url('cats.jpg');
+  margin: 0 auto;
+  max-width: 800px;
 }
