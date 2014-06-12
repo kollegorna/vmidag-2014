@@ -1,0 +1,38 @@
+---
+layout: default
+title: Hela spelschemat – VM Idag
+---
+
+{% include header.html %}
+
+<section class="matches animated slideInDown">
+  {% for match in site.data.schedule %}
+    <article class="match">
+      <div class="match__meta">
+        <time class="match__time">
+          {{ match.date }}
+        </time>
+
+        <h4 class="match__group">
+          {{ match.type }} {{ match.group }}
+        </h4>
+      </div>
+
+      <div class="match__info">
+        <h3 class="match__teams">
+          <span class="match__teams__home">
+            {{ match.home_team }}
+          </span>
+          –
+          <span class="match__teams__away">
+            {{ match.away_team }}
+          </span>
+        </h3>
+
+        <ul class="match__tv">
+          <li>{{ match.channels }}</li>
+        </ul>
+      </div>
+    </article>
+  {% endfor %}
+</section>
