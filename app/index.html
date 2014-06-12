@@ -3,39 +3,35 @@ layout: default
 title: VM Idag
 ---
 
+{% include header.html %}
+
 <section class="matches animated slideInDown">
-
-  <!--<h1 class="matches__heading matches__heading--today">Dagens matcher i fotbolls-VM</h1>
-  <h2 class="matches__heading matches__heading--today">I morgon</h2>
-  <h2 class="matches__heading matches__heading--today">Lördag 14/6</h2>-->
-
   {% for match in site.data.schedule %}
     <article class="match">
-      <time class="match__time">
-        {{ match.date }}
-      </time>
+      <div class="match__meta">
+        <time class="match__time">
+          {{ match.date }}
+        </time>
 
-      <h4 class="match__group">
-        {{ match.type }} {{ match.group }}
-      </h4>
+        <h4 class="match__group">
+          {{ match.type }} {{ match.group }}
+        </h4>
+      </div>
 
-      <h3 class="match__teams">
-        <span class="match__teams__home">
-          {{ match.home_team }}
-        </span>
-        –
-        <span class="match__teams__away">
-          {{ match.away_team }}
-        </span>
-      </h3>
+      <div class="match__info">
+        <h3 class="match__teams">
+          <span class="match__teams__home">
+            {{ match.home_team }}
+          </span>
+          –
+          <span class="match__teams__away">
+            {{ match.away_team }}
+          </span>
+        </h3>
 
-      <!--<ul class="match__tv">
-        <li><a href="http://bit.ly/vmidag2014-svt1">SVT1</a></li>
-        <li><a href="http://bit.ly/vmidag2014-svtplay">SVT Play</a></li>
-      </ul>-->
-
-      <div class="match__tv">
-        {{ match.channels }}
+        <ul class="match__tv">
+          <li>{{ match.channels }}</li>
+        </ul>
       </div>
     </article>
   {% endfor %}

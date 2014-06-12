@@ -1,13 +1,36 @@
 // *= require bower_components/animate.css/animate
 
+@import "breakpoint";
 @import "compass";
 @import "bower_components/normalize-scss/normalize";
 
+// Breakpoints
+$breakpoint-smartphone: 480px;
+$breakpoint-tablet-small: 600px;
+$breakpoint-tablet: 768px;
+$breakpoint-laptop: 992px;
+$breakpoint-desktop: 1200px;
+$breakpoint-desktop-large: 1600px;
+$breakpoint-cinema: 2146px;
+
+$breakpoint-small: 480px;
+$breakpoint-medium: 767px;
+$breakpoint-content: 800px;
+$breakpoint-large: 1023px;
+
+// Breakpoints: Device specifc
+$breakpoint-iphone-portrait: 320px;
+$breakpoint-iphone-landscape: 480px;
+$breakpoint-ipad-portrait: 768px;
+$breakpoint-ipad-landscape: 1024px;
+
+// Colors
 $color-yellow: #fff100;
 $color-green: #00ae55;
 $color-green-dark: #00813f;
 $color-blue: #004f9e;
 
+// Fonts
 // 400, 700, 900
 $font-weight: 400;
 
@@ -48,8 +71,12 @@ html {
 
 body {
   margin: 0 auto;
-  max-width: 800px;
+  max-width: $breakpoint-content;
   padding: 60px 0;
+
+  @include breakpoint($breakpoint-large) {
+
+  }
 }
 
 a {
@@ -62,49 +89,134 @@ a {
   display: inline-block;
 }
 
+// HEADER ----------------------------------------------------------------------
+
+.header {
+
+}
+
+.header-links {
+  list-style: none;
+  margin: 0 0 60px;
+  padding: 0;
+  text-align: center;
+
+  li {
+    display: inline;
+    margin: 0;
+    padding: 0 15px;
+  }
+
+  @include breakpoint($breakpoint-large) {
+    position: fixed;
+    right: 60px;
+    text-align: left;
+    top: 60px;
+
+    li {
+      display: block;
+      margin: 0 0 50px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
 // MATCHES ---------------------------------------------------------------------
+
+.matches__heading {
+  background: rgba($color-green, .3);
+  font-style: 1em;
+  margin: 0 0 2px;
+  padding: 10px 20px;
+
+  @include breakpoint($breakpoint-content) {
+    margin-top: 60px;
+    padding: 20px;
+    text-align: center;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+}
+
+.matches__heading--today {
+  font-size: 4em;
+  text-transform: uppercase;
+}
+
+.matches__heading--tomorrow {
+  font-size: 2.2em;
+  text-transform: uppercase;
+}
+
 .match {
   @include clearfix;
-  margin: 0 0 10px;
+  background: rgba($color-green, .1);
+  margin: 0 0 2px;
   padding: 20px;
 
   &:last-child {
     margin-bottom: 0;
   }
 
-  &:hover {
-    @include border-radius(2px);
-    background: rgba(0, 0, 0, .05);
+  &:nth-child(odd) {
+    background: rgba($color-green, .18);
+  }
+}
+
+.match__meta {
+  margin: 0 0 4px;
+
+  @include breakpoint($breakpoint-small) {
+    float: left;
+    margin: 0;
+    width: 220px;
+  }
+}
+
+.match__info {
+  @include breakpoint($breakpoint-small) {
+    margin-left: 220px;
   }
 }
 
 .match__time,
 .match__group,
-.match__teams,
-.match__tv {
+.match__teams {
   @extend %col;
 }
 
 .match__time {
-  width: 100px;
+  width: 80px;
 }
 
 .match__group {
+  font-size: 1em;
+  font-weight: 700;
   margin: 0;
   width: 120px;
 }
 
 .match__teams {
+  font-size: 1.2em;
+  font-weight: 700;
   margin: 0;
 }
 
 .match__tv {
-  float: right;
   list-style: none;
   margin: 0;
   padding: 0;
 
   li {
     display: inline-block;
+  }
+
+  @include breakpoint($breakpoint-medium) {
+    float: right;
   }
 }

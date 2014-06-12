@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="51px" height="51px" viewBox="0 0 51 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.3 (7891) - http://www.bohemiancoding.com/sketch -->
+    <title>Instagram</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Instagram" sketch:type="MSLayerGroup" transform="translate(1.000000, 1.000000)" fill="#00813F">
+            <path d="M37.7234375,24.925 C36.0296875,30.7875 30.63125,35.08125 24.221875,35.08125 C17.809375,35.08125 12.40625,30.7875 10.7125,24.925 L-0.778125,24.925 L-0.778125,40.25625 C-0.778125,45.43125 3.421875,49.63125 8.596875,49.63125 L39.846875,49.63125 C45.021875,49.63125 49.221875,45.43125 49.221875,40.25625 L49.221875,24.925 L37.7234375,24.925" id="Fill-1" sketch:type="MSShapeGroup"></path>
+            <path d="M10.71875,17.1125 C12.4125,11.253125 17.8078125,6.95625 24.228125,6.95625 C30.640625,6.95625 36.0359375,11.253125 37.7296875,17.1125 L49.228125,17.1125 L49.228125,9.00625 C49.228125,3.83125 45.028125,-0.36875 39.853125,-0.36875 L8.603125,-0.36875 C3.428125,-0.36875 -0.771875,3.83125 -0.771875,9.00625 L-0.771875,17.1125 L10.71875,17.1125" id="Fill-2" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
