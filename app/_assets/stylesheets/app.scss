@@ -1,7 +1,79 @@
 @import "compass";
 @import "bower_components/normalize-scss/normalize";
 
-body {
+$color-yellow: #fff100;
+$color-green: #00ae55;
+$color-green-dark: #00813f;
+$color-blue: #004f9e;
+
+// 400, 700, 900
+$font-weight: 400;
+
+// BASE ------------------------------------------------------------------------
+*,
+*:before,
+*:after {
+  @include box-sizing(border-box);
+  -webkit-font-smoothing: antialiased;
+}
+
+html {
+  background: $color-yellow;
+  color: $color-green-dark;
+  font-family: 'Roboto', sans-serif;
   margin: 0 auto;
   max-width: 800px;
+  overflow-y: scroll;
+  text-rendering: optimizeLegibility;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  color: $color-blue;
+}
+
+// GRID
+
+%col {
+  display: inline-block;
+}
+
+// MATCHES ---------------------------------------------------------------------
+.match {
+  @include clearfix;
+  background: #fff;
+  margin: 0 0 2px;
+  padding: 20px;
+}
+
+.match__time,
+.match__group,
+.match__teams,
+.match__tv {
+  @extend %col;
+}
+
+.match__time {
+  width: 100px;
+}
+
+.match__group {
+  margin: 0;
+  width: 60px;
+}
+
+.match__teams {
+  margin: 0;
+}
+
+.match__tv {
+  float: right;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    display: inline-block;
+  }
 }
