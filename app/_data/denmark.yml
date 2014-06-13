@@ -4,8 +4,8 @@
   group: A
   home_team: Brasilien
   away_team: Kroatien
-  home_goals: ~
-  away_goals: ~
+  home_goals: 3
+  away_goals: 1
   stadium: Arena Corinthians
   city: São Paulo
   channels: TV 2
