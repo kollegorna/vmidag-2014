@@ -368,7 +368,7 @@
   away_goals: ~
   stadium: Arena das Dunas
   city: Natal
-  channels: Kunskapskanalen
+  channels: Kunskapskanalen, SVT Play
 - date: 2014-06-24 18:00
   type: Grupp
   group: D
@@ -458,7 +458,7 @@
   away_goals: ~
   stadium: Estádio Nacional Mané Garrincha
   city: Brasília
-  channels: Kunskapskanalen
+  channels: Kunskapskanalen, SVT Play
 - date: 2014-06-26 22:00
   type: Grupp
   group: H

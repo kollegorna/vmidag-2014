@@ -1,6 +1,6 @@
 
 - date: 2014-06-12 22:00
-  type: Gruppespill
+  type: Gruppe
   group: A
   home_team: Brasil
   away_team: Kroatia
@@ -8,9 +8,9 @@
   away_goals: 1
   stadium: Arena Corinthians
   city: São Paulo
-  channels: TV 2
+  channels: TV 2, TV 2 Sumo
 - date: 2014-06-13 18:00
-  type: Gruppespill
+  type: Gruppe
   group: A
   home_team: Mexico
   away_team: Kamerun
@@ -20,7 +20,7 @@
   city: Natal
   channels: NRK 1
 - date: 2014-06-13 21:00
-  type: Gruppespill
+  type: Gruppe
   group: B
   home_team: Spania
   away_team: Nederland
@@ -30,7 +30,7 @@
   city: Salvador
   channels: NRK 1
 - date: 2014-06-13 23:55
-  type: Gruppespill
+  type: Gruppe
   group: B
   home_team: Chile
   away_team: Australia
@@ -38,9 +38,9 @@
   away_goals: ~
   stadium: Arena Pantanal
   city: Cuiabá
-  channels: TV 2
+  channels: TV 2, TV 2 Sumo
 - date: 2014-06-14 18:00
-  type: Gruppespill
+  type: Gruppe
   group: C
   home_team: Colombia
   away_team: Hellas
@@ -48,9 +48,9 @@
   away_goals: ~
   stadium: Estádio Mineirão
   city: Belo Horizonte
-  channels: TV 2
+  channels: TV 2, TV 2 Sumo
 - date: 2014-06-14 21:00
-  type: Gruppespill
+  type: Gruppe
   group: D
   home_team: Uruguay
   away_team: Costa Rica
@@ -60,7 +60,7 @@
   city: Fortaleza
   channels: NRK 1
 - date: 2014-06-14 23:55
-  type: Gruppespill
+  type: Gruppe
   group: D
   home_team: England
   away_team: Italia
@@ -70,7 +70,7 @@
   city: Recife
   channels: NRK 1
 - date: 2014-06-14 03:00
-  type: Gruppespill
+  type: Gruppe
   group: C
   home_team: Elfenbenskysten
   away_team: Japan
@@ -80,7 +80,7 @@
   city: Manaus
   channels: NRK 1
 - date: 2014-06-15 18:00
-  type: Gruppespill
+  type: Gruppe
   group: E
   home_team: Sveits
   away_team: Ecuador
@@ -88,9 +88,9 @@
   away_goals: ~
   stadium: Estádio Nacional Mané Garrincha
   city: Brasília
-  channels: TV 2
+  channels: TV 2, TV 2 Sumo
 - date: 2014-06-15 21:00
-  type: Gruppespill
+  type: Gruppe
   group: E
   home_team: Frankrike
   away_team: Honduras
@@ -100,7 +100,7 @@
   city: Porto Alegre
   channels: NRK 1
 - date: 2014-06-15 23:55
-  type: Gruppespill
+  type: Gruppe
   group: F
   home_team: Argentina
   away_team: Bosnia
@@ -110,7 +110,7 @@
   city: Rio de Janeiro
   channels: NRK 1
 - date: 2014-06-16 18:00
-  type: Gruppespill
+  type: Gruppe
   group: G
   home_team: Tyskland
   away_team: Portugal
@@ -118,9 +118,9 @@
   away_goals: ~
   stadium: Arena Fonte Nova
   city: Salvador
-  channels: TV 2
+  channels: TV 2, TV 2 Sumo
 - date: 2014-06-16 21:00
-  type: Gruppespill
+  type: Gruppe
   group: F
   home_team: Iran
   away_team: Nigeria
@@ -128,9 +128,9 @@
   away_goals: ~
   stadium: Arena da Baixada
   city: Curitiba
-  channels: TV 2 Sportskanalen
+  channels: TV 2 Sportskanalen, TV 2 Sumo
 - date: 2014-06-16 23:55
-  type: Gruppespill
+  type: Gruppe
   group: G
   home_team: Ghana
   away_team: USA
@@ -140,7 +140,7 @@
   city: Natal
   channels: NRK 1
 - date: 2014-06-17 18:00
-  type: Gruppespill
+  type: Gruppe
   group: H
   home_team: Belgia
   away_team: Algerie
@@ -150,7 +150,7 @@
   city: Belo Horizonte
   channels: NRK 1
 - date: 2014-06-17 21:00
-  type: Gruppespill
+  type: Gruppe
   group: A
   home_team: Brasil
   away_team: Mexico
@@ -158,9 +158,9 @@
   away_goals: ~
   stadium: Estádio Castelão
   city: Fortaleza
-  channels: TV 2
+  channels: TV 2, TV 2 Sumo
 - date: 2014-06-17 23:55
-  type: Gruppespill
+  type: Gruppe
   group: H
   home_team: Russland
   away_team: Sør-Korea
@@ -168,9 +168,9 @@
   away_goals: ~
   stadium: Arena Pantanal
   city: Cuiabá
-  channels: TV 2
+  channels: TV 2, TV 2 Sumo
 - date: 2014-06-18 18:00
-  type: Gruppespill
+  type: Gruppe
   group: B
   home_team: Australia
   away_team: Nederland
@@ -178,9 +178,9 @@
   away_goals: ~
   stadium: Estádio Beira-Rio
   city: Porto Alegre
-  channels: TV 2
+  channels: TV 2, TV 2 Sumo
 - date: 2014-06-18 21:00
-  type: Gruppespill
+  type: Gruppe
   group: B
   home_team: Spania
   away_team: Chile
@@ -190,7 +190,7 @@
   city: Rio de Janeiro
   channels: NRK 1
 - date: 2014-06-18 23:55
-  type: Gruppespill
+  type: Gruppe
   group: A
   home_team: Kamerun
   away_team: Kroatia
@@ -198,9 +198,9 @@
   away_goals: ~
   stadium: Arena Amazônia
   city: Manaus
-  channels: TV 2
+  channels: TV 2, TV 2 Sumo
 - date: 2014-06-19 18:00
-  type: Gruppespill
+  type: Gruppe
   group: C
   home_team: Colombia
   away_team: Elfenbenskysten
@@ -210,7 +210,7 @@
   city: Brasília
   channels: NRK 1
 - date: 2014-06-19 21:00
-  type: Gruppespill
+  type: Gruppe
   group: D
   home_team: Uruguay
   away_team: England
@@ -218,9 +218,9 @@
   away_goals: ~
   stadium: Arena Corinthians
   city: São Paulo
-  channels: TV 2
+  channels: TV 2, TV 2 Sumo
 - date: 2014-06-19 23:55
-  type: Gruppespill
+  type: Gruppe
   group: C
   home_team: Japan
   away_team: Hellas
@@ -228,9 +228,9 @@
   away_goals: ~
   stadium: Arena das Dunas
   city: Natal
-  channels: TV 2
+  channels: TV 2, TV 2 Sumo
 - date: 2014-06-20 18:00
-  type: Gruppespill
+  type: Gruppe
   group: D
   home_team: Italia
   away_team: Costa Rica
@@ -240,7 +240,7 @@
   city: Recife
   channels: NRK 1
 - date: 2014-06-20 21:00
-  type: Gruppespill
+  type: Gruppe
   group: E
   home_team: Sveits
   away_team: Frankrike
@@ -248,9 +248,9 @@
   away_goals: ~
   stadium: Arena Fonte Nova
   city: Salvador
-  channels: TV 2
+  channels: TV 2, TV 2 Sumo
 - date: 2014-06-20 23:55
-  type: Gruppespill
+  type: Gruppe
   group: E
   home_team: Honduras
   away_team: Ecuador
@@ -258,9 +258,9 @@
   away_goals: ~
   stadium: Arena da Baixada
   city: Curitiba
-  channels: TV 2
+  channels: TV 2, TV 2 Sumo
 - date: 2014-06-21 18:00
-  type: Gruppespill
+  type: Gruppe
   group: F
   home_team: Argentina
   away_team: Iran
@@ -268,9 +268,9 @@
   away_goals: ~
   stadium: Estádio Mineirão
   city: Belo Horizonte
-  channels: TV 2
+  channels: TV 2, TV 2 Sumo
 - date: 2014-06-21 21:00
-  type: Gruppespill
+  type: Gruppe
   group: G
   home_team: Tyskland
   away_team: Ghana
@@ -280,7 +280,7 @@
   city: Fortaleza
   channels: NRK 1
 - date: 2014-06-21 23:55
-  type: Gruppespill
+  type: Gruppe
   group: F
   home_team: Nigeria
   away_team: Bosnia
@@ -290,7 +290,7 @@
   city: Cuiabá
   channels: NRK 1
 - date: 2014-06-22 18:00
-  type: Gruppespill
+  type: Gruppe
   group: H
   home_team: Belgia
   away_team: Russland
@@ -300,7 +300,7 @@
   city: Rio de Janeiro
   channels: NRK 1
 - date: 2014-06-22 21:00
-  type: Gruppespill
+  type: Gruppe
   group: H
   home_team: Sør-Korea
   away_team: Algerie
@@ -308,9 +308,9 @@
   away_goals: ~
   stadium: Estádio Beira-Rio
   city: Porto Alegre
-  channels: TV 2 Sportskanalen
+  channels: TV 2 Sportskanalen, TV 2 Sumo
 - date: 2014-06-22 23:55
-  type: Gruppespill
+  type: Gruppe
   group: G
   home_team: USA
   away_team: Portugal
@@ -320,7 +320,7 @@
   city: Manaus
   channels: NRK 1
 - date: 2014-06-23 18:00
-  type: Gruppespill
+  type: Gruppe
   group: B
   home_team: Nederland
   away_team: Chile
@@ -328,9 +328,9 @@
   away_goals: ~
   stadium: Arena da Baixada
   city: Curitiba
-  channels: TV 2
+  channels: TV 2, TV 2 Sumo
 - date: 2014-06-23 18:00
-  type: Gruppespill
+  type: Gruppe
   group: B
   home_team: Australia
   away_team: Spania
@@ -338,9 +338,9 @@
   away_goals: ~
   stadium: Arena Corinthians
   city: São Paulo
-  channels: TV 2
+  channels: TV 2, TV 2 Sumo
 - date: 2014-06-23 22:00
-  type: Gruppespill
+  type: Gruppe
   group: A
   home_team: Kamerun
   away_team: Brasil
@@ -350,7 +350,7 @@
   city: Brasília
   channels: NRK 1
 - date: 2014-06-23 22:00
-  type: Gruppespill
+  type: Gruppe
   group: A
   home_team: Kroatia
   away_team: Mexico
@@ -360,7 +360,7 @@
   city: Recife
   channels: NRK 3
 - date: 2014-06-24 18:00
-  type: Gruppespill
+  type: Gruppe
   group: D
   home_team: Costa Rica
   away_team: England
@@ -368,9 +368,9 @@
   away_goals: ~
   stadium: Arena das Dunas
   city: Natal
-  channels: TV 2
+  channels: TV 2, TV 2 Sumo
 - date: 2014-06-24 18:00
-  type: Gruppespill
+  type: Gruppe
   group: D
   home_team: Italia
   away_team: Uruguay
@@ -378,9 +378,9 @@
   away_goals: ~
   stadium: Estádio Mineirão
   city: Belo Horizonte
-  channels: TV 2
+  channels: TV 2, TV 2 Sumo
 - date: 2014-06-24 22:00
-  type: Gruppespill
+  type: Gruppe
   group: C
   home_team: Hellas
   away_team: Elfenbenskysten
@@ -390,7 +390,7 @@
   city: Cuiabá
   channels: NRK 1
 - date: 2014-06-24 22:00
-  type: Gruppespill
+  type: Gruppe
   group: C
   home_team: Japan
   away_team: Colombia
@@ -400,7 +400,7 @@
   city: Fortaleza
   channels: NRK 3
 - date: 2014-06-25 18:00
-  type: Gruppespill
+  type: Gruppe
   group: F
   home_team: Bosnia
   away_team: Iran
@@ -410,7 +410,7 @@
   city: Porto Alegre
   channels: NRK 2
 - date: 2014-06-25 18:00
-  type: Gruppespill
+  type: Gruppe
   group: F
   home_team: Nigeria
   away_team: Argentina
@@ -420,7 +420,7 @@
   city: Salvador
   channels: NRK 1
 - date: 2014-06-25 22:00
-  type: Gruppespill
+  type: Gruppe
   group: E
   home_team: Ecuador
   away_team: Frankrike
@@ -428,9 +428,9 @@
   away_goals: ~
   stadium: Arena Amazônia
   city: Manaus
-  channels: TV 2
+  channels: TV 2, TV 2 Sumo
 - date: 2014-06-25 22:00
-  type: Gruppespill
+  type: Gruppe
   group: E
   home_team: Honduras
   away_team: Sveits
@@ -438,9 +438,9 @@
   away_goals: ~
   stadium: Estádio do Maracanã
   city: Rio de Janeiro
-  channels: TV 2
+  channels: TV 2, TV 2 Sumo
 - date: 2014-06-26 18:00
-  type: Gruppespill
+  type: Gruppe
   group: G
   home_team: Portugal
   away_team: Ghana
@@ -450,7 +450,7 @@
   city: Recife
   channels: NRK 2
 - date: 2014-06-26 18:00
-  type: Gruppespill
+  type: Gruppe
   group: G
   home_team: USA
   away_team: Tyskland
@@ -460,7 +460,7 @@
   city: Brasília
   channels: NRK 1
 - date: 2014-06-26 22:00
-  type: Gruppespill
+  type: Gruppe
   group: H
   home_team: Algerie
   away_team: Russland
@@ -468,9 +468,9 @@
   away_goals: ~
   stadium: Arena Corinthians
   city: São Paulo
-  channels: TV 2
+  channels: TV 2, TV 2 Sumo
 - date: 2014-06-26 22:00
-  type: Gruppespill
+  type: Gruppe
   group: H
   home_team: Sør-Korea
   away_team: Belgia
@@ -478,7 +478,7 @@
   away_goals: ~
   stadium: Arena da Baixada
   city: Curitiba
-  channels: TV 2
+  channels: TV 2, TV 2 Sumo
 - date: 2014-06-28 18:00
   type: 1/8-finale
   group: ~
@@ -498,7 +498,7 @@
   away_goals: ~
   stadium: Estádio do Maracanã
   city: Rio de Janeiro
-  channels: TV 2
+  channels: TV 2, TV 2 Sumo
 - date: 2014-06-29 18:00
   type: 1/8-finale
   group: ~
@@ -508,7 +508,7 @@
   away_goals: ~
   stadium: Estádio Castelão
   city: Fortaleza
-  channels: TV 2
+  channels: TV 2, TV 2 Sumo
 - date: 2014-06-29 22:00
   type: 1/8-finale
   group: ~
@@ -538,7 +538,7 @@
   away_goals: ~
   stadium: Estádio Beira-Rio
   city: Porto Alegre
-  channels: TV 2
+  channels: TV 2, TV 2 Sumo
 - date: 2014-07-01 18:00
   type: 1/8-finale
   group: ~
@@ -558,7 +558,7 @@
   away_goals: ~
   stadium: Arena Fonte Nova
   city: Salvador
-  channels: TV 2
+  channels: TV 2, TV 2 Sumo
 - date: 2014-07-04 18:00
   type: Kvartfinale 1
   group: ~
@@ -578,7 +578,7 @@
   away_goals: ~
   stadium: Estádio Castelão
   city: Fortaleza
-  channels: TV 2
+  channels: TV 2, TV 2 Sumo
 - date: 2014-07-05 18:00
   type: Kvartfinale 3
   group: ~
@@ -588,7 +588,7 @@
   away_goals: ~
   stadium: Estádio Nacional Mané Garrincha
   city: Brasília
-  channels: TV 2
+  channels: TV 2, TV 2 Sumo
 - date: 2014-07-05 22:00
   type: Kvartfinale 4
   group: ~
@@ -608,7 +608,7 @@
   away_goals: ~
   stadium: Estádio Mineirão
   city: Belo Horizonte
-  channels: TV 2
+  channels: TV 2, TV 2 Sumo
 - date: 2014-07-09 22:00
   type: Semifinale 2
   group: ~
@@ -618,7 +618,7 @@
   away_goals: ~
   stadium: Arena Corinthians
   city: São Paulo
-  channels: TV 2
+  channels: TV 2, TV 2 Sumo
 - date: 2014-07-12 22:00
   type: Bronsefinale
   group: ~
