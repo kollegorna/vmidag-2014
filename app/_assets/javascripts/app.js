@@ -1,4 +1,4 @@
-//= require bower_components/jquery/dist/jquery.min.js
+//= require bower_components/zepto/zepto.min.js
 
 $(function() {
   var nearFuture = 86400000; // 1 day in milliseconds
