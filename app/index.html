@@ -1,40 +1,11 @@
 ---
-layout: default
+layout: sweden
 title: VM Idag
 ---
 
-<section class="matches front animated slideInDown" role="main">
-  {% for match in site.data.sweden %}
-    <article class="match">
-      <div class="match__meta">
-        <time class="match__time">
-          {{ match.date }}
-        </time>
-
-        <h4 class="match__group">
-          {{ match.type }} {{ match.group }}
-        </h4>
-      </div>
-
-      <div class="match__info">
-        <h3 class="match__teams">
-          <span class="match__teams__home">
-            {{ match.home_team }}
-          </span>
-          –
-          <span class="match__teams__away">
-            {{ match.away_team }}
-          </span>
-        </h3>
-
-        <ul class="match__tv">
-          <li>{{ match.channels }}</li>
-        </ul>
-      </div>
-    </article>
-  {% endfor %}
-
-  <!--<footer>
-    <a href="/spelschema">Se hela spelschemat</a>
-  </footer>-->
+<section class="nations animated slideInDown" role="main">
+  <h1>Välj/vælg/velg land</h1>
+  <a href="http://www.vmidag.se" class="nation sweden">Sverige</a>
+  <a href="http://www.vmidag.dk" class="nation denmark">Danmark</a>
+  <a href="http://www.vmidag.no" class="nation norway">Norge</a>
 </section>
