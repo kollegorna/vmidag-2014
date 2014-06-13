@@ -266,13 +266,15 @@ a {
   &:nth-child(odd) {
     background: rgba($color-green, .18);
   }
+
+  a {
+    color: $color-green-dark;
+  }
 }
 
 .matches {
   &.front {
-    .past,
-    .future,
-    .near-future {
+    .past {
       display: none;
     }
   }

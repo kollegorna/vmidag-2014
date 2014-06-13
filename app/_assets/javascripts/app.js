@@ -34,11 +34,11 @@ $(function() {
 
       var $container = $('<div id="day-' + currentDayCounter + '"></div>');
 
-      if (matchTimestamp == todayTimestamp) {
+      if (matchTimestamp == todayTimestamp && isFront) {
         $container.append('<h2 class="matches__heading matches__heading--today">' + VMIDAG.t['Today'] + '</h2>');
         $container.addClass('present');
       }
-      else if (matchTimestamp == todayTimestamp + nearFuture) {
+      else if (matchTimestamp == todayTimestamp + nearFuture && isFront) {
         $container.append('<h2 class="matches__heading matches__heading--tomorrow">' + VMIDAG.t['Tomorrow'] + '</h2>');
         $container.addClass('near-future');
       }
@@ -60,7 +60,7 @@ $(function() {
     for (var i = 0, len = channels.length; i < len; i++) {
       var text = $.trim(channels[i]);
       var name = VMIDAG.channelNames[text];
-      channels[i] = '<a href="http://bit.ly/vmidag2014-' + name + '"><img src="/assets/images/' + name + '.svg" alt="' + text + '" /></a>';
+      channels[i] = '<a href="http://bit.ly/vmidag2014-' + name + '">' + text + '</a>';
     }
     $tv.html(channels.join(' '));
 
