@@ -1,79 +1,106 @@
 //= require bower_components/zepto/zepto.min.js
+//= require bower_components/moment/min/moment.min.js
+//= require bower_components/moment/lang/sv.js
+//= require bower_components/moment/lang/da.js
+//= require bower_components/moment/lang/nb.js
 
 $(function() {
-  var nearFuture = 86400000; // 1 day in milliseconds
-  var currentDayTimestamp, currentDayCounter = 0;
+  moment.lang(VMIDAG.locale);
 
-  // A timestamp for today, without the time.
-  var todayTimestamp = (new Date).setHours(0, 0, 0, 0);
+  // Returns the translated text for the current locale.
+  var translate = function(text) {
+    return VMIDAG.translate[text];
+  }
 
-  // Whether currently on the front page.
-  var isFront = $('.matches').is('.front');
+  // Get the current and tomorrow's date.
+  var now = moment();
+  var tomorrow = now.clone().add(1, 'day');
 
-  $('.match').each(function(i) {
-    // Extract time and date values for the match.
-    var $time = $('.match__time', this);
-    var time = $time.text().trim().substr(-5);
-    var datum = $time.text().trim().substr(0, 10);
-    var year = datum.substr(0, 4);
-    var month = parseInt(datum.substr(5, 2));
-    var date = parseInt(datum.substr(8, 2), 10);
+  // Used to group matches by day.
+  var currentDay, currentDayCounter = 0;
 
-    // A date object for the match.
-    var matchDate = new Date(year, month - 1, date, time.substr(0, 2), time.substr(3, 2));
+  var $matches = $('.matches');
 
-    // A timestamp for the match, without the time.
-    var matchTimestamp = matchDate.setHours(0, 0, 0, 0);
+  // Pretty up and group matches by day.
+  $('.match', $matches).each(function(i) {
+    var $match = $(this);
+
+    // Get the date for the match.
+    var $time = $('.match__time', $match);
+    var date = moment($time.text().trim(), 'YYYY-MM-DD HH:mm');
+    var dateEnd = date.clone().add(115, 'minutes'); // 90 minutes + 15 minute break + overtime (10 minutes max)
 
     // Display only the time for the match.
-    $time.text(time);
+    $time.text(date.format('LT'));
 
-    if (matchTimestamp != currentDayTimestamp) {
-      currentDayTimestamp = matchTimestamp;
+    // Mark the match if it's currently playing.
+    if (now.isAfter(date) && now.isBefore(dateEnd)) {
+      $match.addClass('live');
+    }
+
+    // Reuse or create the container for its day.
+    var $container;
+    if (currentDay && date.isSame(currentDay, 'day')) {
+      $container = $('#day-' + currentDayCounter);
+    }
+    else {
+      currentDay = date.clone();
       currentDayCounter++;
 
-      var $container = $('<div id="day-' + currentDayCounter + '"></div>');
+      $container = $('<div id="day-' + currentDayCounter + '"></div>');
 
-      if (matchTimestamp == todayTimestamp && isFront) {
-        $container.append('<h2 class="matches__heading matches__heading--today">' + VMIDAG.t['Today'] + '</h2>');
+      if (date.isSame(now, 'day')) {
+        $container.append('<h2 class="matches__heading matches__heading--today">' + translate('Today') + '</h2>');
         $container.addClass('present');
       }
-      else if (matchTimestamp == todayTimestamp + nearFuture && isFront) {
-        $container.append('<h2 class="matches__heading matches__heading--tomorrow">' + VMIDAG.t['Tomorrow'] + '</h2>');
+      else if (date.isSame(tomorrow, 'day')) {
+        $container.append('<h2 class="matches__heading matches__heading--tomorrow">' + translate('Tomorrow') + '</h2>');
         $container.addClass('near-future');
       }
       else {
-        var weekday = VMIDAG.dayLabels[matchDate.getDay()];
-        $container.append('<h2 class="matches__heading matches__heading--future">' + weekday + ' ' + date + '/' + month + '</h2>');
-        $container.addClass(matchTimestamp < todayTimestamp ? 'past' : 'future');
+        $container.append('<h2 class="matches__heading matches__heading--future">' + date.format(VMIDAG.dateFormat) + '</h2>');
+        $container.addClass(date < now ? 'past' : 'future');
       }
 
-      $container.insertBefore(this);
-    }
-    else {
-      $container = $('#day-' + currentDayCounter);
+      $container.insertBefore($match);
     }
 
-    // Convert channel names into images.
-    $tv = $('.match__tv', this);
-    var channels = $tv.text().split(', ');
-    for (var i = 0, len = channels.length; i < len; i++) {
-      var text = $.trim(channels[i]);
-      var name = VMIDAG.channelNames[text];
-      channels[i] = '<a href="http://bit.ly/vmidag2014-' + name + '">' + text + '</a>';
-    }
-    $tv.html(channels.join(' '));
-
-    $(this).appendTo($container);
+    // Add the match to the container for its day.
+    $match.appendTo($container);
   });
 
-  // If on the schedule page, scroll to today.
-  // @todo Make it work.
-  if (!isFront) {
-    $('html').animate({
-      scrollTop: $('.present').offset().top + $('.header').outerHeight()
-    }, 1000);
-  }
+  // Link TV channels to their respective sites.
+  $('.match__tv', $matches).each(function () {
+    $tv = $(this);
+
+    var channels = [];
+    $.each($tv.text().split(', '), function(index, channel) {
+      var text = $.trim(channel);
+      var name = VMIDAG.channels[text];
+      channels.push('<a href="http://bit.ly/vmidag2014-' + name + '">' + text + '</a>');
+    });
+
+    $tv.html(channels.join(' '));
+  });
+
+  // Show previous matches when clicking the link.
+  $('.show-all', $matches)
+    .text(translate('Show past matches'))
+    .on('click', function () {
+      event.preventDefault();
+
+      var $body = $('body');
+      var $present = $('.present');
+
+      // Remember the offset of today's matches.
+      var offsetTop = $present.offset().top - $body.scrollTop();
+
+      // Hide the link, show past matches and set the offset to what it was
+      // right before, relative to today's matches. Everything stays in place.
+      $(this).hide();
+      $matches.addClass('all');
+      $body.scrollTop($present.offset().top - offsetTop);
+  })
 });
 
 // Don't open internal links in Mobile Safari when running stand alone web app
@@ -82,12 +109,12 @@ $(document).on(
   "click",
   ".link-internal",
   function(event){
-    // Stop the default behavior of the browser, which
-    // is to change the URL of the page.
+    // Stop the default behavior of the browser, which is to change the URL of
+    // the page.
     event.preventDefault();
 
-    // Manually change the location of the page to stay in
-    // "Standalone" mode and change the URL at the same time.
+    // Manually change the location of the page to stay in "Standalone" mode and
+    // change the URL at the same time.
     location.href = $(this).attr("href");
   }
 );

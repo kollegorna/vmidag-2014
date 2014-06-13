@@ -228,6 +228,22 @@ a {
   @include breakpoint($breakpoint-large) {
     padding-top: 0;
   }
+
+  .show-all {
+    display: block;
+    padding: 30px 0;
+    text-align: center;
+  }
+}
+
+.matches {
+  .past {
+    display: none;
+  }
+
+  &.all .past {
+    display: block;
+  }
 }
 
 .matches__heading {
@@ -267,16 +283,12 @@ a {
     background: rgba($color-green, .18);
   }
 
+  &.live {
+    background: rgba(255,255,255,0.8);
+  }
+
   a {
     color: $color-green-dark;
-  }
-}
-
-.matches {
-  &.front {
-    .past {
-      display: none;
-    }
   }
 }
 
@@ -331,11 +343,6 @@ a {
   @include breakpoint($breakpoint-medium) {
     float: right;
   }
-}
-
-.matches footer {
-  padding: 30px 0;
-  text-align: center;
 }
 
 // PAGE ------------------------------------------------------------------------
