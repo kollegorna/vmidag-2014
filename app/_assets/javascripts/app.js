@@ -19,6 +19,9 @@ $(function() {
   // Used to group matches by day.
   var currentDay, currentDayCounter = 0;
 
+  // Selectors.
+  var $body = $('body');
+  var $header = $('.header');
   var $matches = $('.matches');
 
   // Pretty up and group matches by day.
@@ -83,24 +86,27 @@ $(function() {
     $tv.html(channels.join(' '));
   });
 
+  var $topmost = $('.past', $matches).last().next();
+  var $showAll = $('.show-all', $matches);
+
   // Show previous matches when clicking the link.
-  $('.show-all', $matches)
-    .text(translate('Show past matches'))
-    .on('click', function () {
-      event.preventDefault();
+  $showAll.text(translate('Show past matches')).on('click', function () {
+    event.preventDefault();
 
-      var $body = $('body');
-      var $present = $('.present');
+    // Remember the offset of the topmost match.
+    var offsetTop = $topmost.offset().top - $body.scrollTop();
 
-      // Remember the offset of today's matches.
-      var offsetTop = $present.offset().top - $body.scrollTop();
+    // Hide the link, show past matches and set the offset to what it was
+    // right before, relative to the topmost match. Everything stays in place.
+    $showAll.hide();
+    $matches.addClass('all');
+    $body.scrollTop($topmost.offset().top - offsetTop);
+  });
 
-      // Hide the link, show past matches and set the offset to what it was
-      // right before, relative to today's matches. Everything stays in place.
-      $(this).hide();
-      $matches.addClass('all');
-      $body.scrollTop($present.offset().top - offsetTop);
-  })
+  // If on a small screen (responsive layout), show the topmost match first.
+  if ($header.offset().left == 0) {
+    $body.scrollTop($('header', $matches).offset().height);
+  }
 });
 
 // Don't open internal links in Mobile Safari when running stand alone web app
