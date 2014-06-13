@@ -1,11 +1,14 @@
 //= require bower_components/jquery/dist/jquery.min.js
+//= require bower_components/moment/min/moment-with-langs.min.js
+
+moment.lang('sv');
 
 $(function() {
-  var match_date, previous_date;
+  var match_date, match_date_friendly, previous_date;
 
   $('.match').each(function(i) {
     match_date = $('.match__time',this).text().trim().substr(0,10);
-
+    match_date_friendly = moment(match_date).format('dddd D MMMM');
     match_time = $('.match__time',this).text().trim().substr(-5);
     $('.match__time',this).text(match_time);
 
@@ -18,7 +21,7 @@ $(function() {
       $(this).before('<h2 class="matches__heading matches__heading--tomorrow">I morgon</h2>');
     } else if (i > 4) {
       if (previous_date !== match_date) {
-        $(this).before('<h2 class="matches__heading">' + match_date + '</h2>');
+        $(this).before('<h2 class="matches__heading">' + match_date_friendly + '</h2>');
       }
     }
 
