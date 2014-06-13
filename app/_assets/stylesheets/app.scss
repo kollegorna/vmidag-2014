@@ -122,6 +122,22 @@ a {
   }
 }
 
+// UI --------------------------------------------------------------------------
+
+.btn {
+  @include border-radius(30px);
+  background: $color-green-dark;
+  border: 0;
+  color: $color-yellow;
+  display: inline-block;
+  height: 40px;
+  margin: 0;
+  line-height: 40px;
+  padding: 0 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
 // HEADER ----------------------------------------------------------------------
 
 .header {
@@ -228,11 +244,19 @@ a {
   @include breakpoint($breakpoint-large) {
     padding-top: 0;
   }
+}
 
-  .show-all {
-    display: block;
-    padding: 30px 0;
-    text-align: center;
+.matches-header {
+  display: none; // @TODO !!!
+  margin: 0 0 40px;
+  text-align: center;
+
+  .btn {
+    opacity: .5;
+
+    &:hover {
+      opacity: 1;
+    }
   }
 }
 
@@ -284,7 +308,12 @@ a {
   }
 
   &.live {
-    background: rgba(255,255,255,0.8);
+    background: $color-green-dark;
+    color: $color-yellow;
+
+    a {
+      color: $color-yellow;
+    }
   }
 
   a {
