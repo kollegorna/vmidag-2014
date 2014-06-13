@@ -14,8 +14,8 @@
   group: A
   home_team: Mexico
   away_team: Cameroun
-  home_goals: ~
-  away_goals: ~
+  home_goals: 1
+  away_goals: 0
   stadium: Arena das Dunas
   city: Natal
   channels: DR1, DR TV

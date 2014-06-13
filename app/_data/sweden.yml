@@ -14,8 +14,8 @@
   group: A
   home_team: Mexiko
   away_team: Kamerun
-  home_goals: ~
-  away_goals: ~
+  home_goals: 1
+  away_goals: 0
   stadium: Arena das Dunas
   city: Natal
   channels: TV4, TV4 Play
