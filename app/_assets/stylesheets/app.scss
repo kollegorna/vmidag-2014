@@ -85,13 +85,15 @@ body {
 
 figure {
   @include clearfix;
-  @include border-radius(2px);
-  background: rgba($color-green-dark, .8);
   margin: 0;
-  padding: 10px;
+
+  @include breakpoint($breakpoint-content) {
+    @include border-radius(2px);
+    background: $color-green-dark;
+    padding: 10px;
+  }
 
   img {
-    //@include border-radius(2px);
     float: left;
   }
 }
@@ -115,7 +117,7 @@ a {
 
 .t-lead {
   font-size: 1.5em;
-  line-height: 1.7;
+  line-height: 1.9;
 }
 
 // HEADER ----------------------------------------------------------------------
@@ -134,7 +136,27 @@ a {
     display: inline-block;
     margin-left: 20px;
 
-    &:first-child {
+    &.header-about,
+    &.header-home {
+      float: left;
+      margin-left: 0;
+    }
+
+    &.header-home {
+      display: none;
+
+      .page-about & {
+        display: inline-block;
+      }
+    }
+
+    &.header-about {
+      .page-about & {
+        display: none;
+      }
+    }
+
+    &.header-twitter {
       margin-left: 0;
       padding-top: 3px;
     }
@@ -164,11 +186,24 @@ a {
       text-align: center;
       width: 52px;
 
-      &:first-child {
+      &.header-about,
+      &.header-home {
+        float: none;
+      }
+
+      &.header-home {
+        padding-top: 16px;
+      }
+
+      &.header-about {
+        padding-top: 14px;
+      }
+
+      &.header-twitter {
         padding-top: 17px;
       }
 
-      &:last-child {
+      &.header-instagram {
         padding-top: 14px;
       }
     }
@@ -286,10 +321,19 @@ a {
 // PAGE ------------------------------------------------------------------------
 
 .page {
+  padding: 0 20px;
+
   h1 {
     font-size: 6em;
     font-weight: 700;
     margin: .67em 0 .5em;
+  }
+
+  figure {
+    margin: 0 -20px;
+    @include breakpoint($breakpoint-content) {
+      margin: 0;
+    }
   }
 
   p {
