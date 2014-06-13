@@ -83,14 +83,39 @@ body {
   }
 }
 
+figure {
+  @include clearfix;
+  @include border-radius(2px);
+  background: rgba($color-green-dark, .8);
+  margin: 0;
+  padding: 10px;
+
+  img {
+    //@include border-radius(2px);
+    float: left;
+  }
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
 a {
   color: $color-blue;
 }
 
-// GRID
+// LAYOUT ----------------------------------------------------------------------
 
 %col {
   display: inline-block;
+}
+
+// TYPOGRAPHY ------------------------------------------------------------------
+
+.t-lead {
+  font-size: 1.5em;
+  line-height: 1.7;
 }
 
 // HEADER ----------------------------------------------------------------------
@@ -257,6 +282,28 @@ a {
     float: right;
   }
 }
+
+// PAGE ------------------------------------------------------------------------
+
+.page {
+  h1 {
+    font-size: 6em;
+    font-weight: 700;
+    margin: .67em 0 .5em;
+  }
+
+  p {
+    line-height: 1.7;
+  }
+
+  a {
+    border-bottom: 2px solid $color-blue;
+    font-weight: 700;
+    text-decoration: none;
+  }
+}
+
+// FOOTER ----------------------------------------------------------------------
 
 .footer {
   padding: 30px 0;
