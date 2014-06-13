@@ -116,8 +116,10 @@ a {
 // TYPOGRAPHY ------------------------------------------------------------------
 
 .t-lead {
-  font-size: 1.5em;
-  line-height: 1.9;
+  @include breakpoint($breakpoint-medium) {
+    font-size: 1.5em;
+    line-height: 1.9;
+  }
 }
 
 // HEADER ----------------------------------------------------------------------
@@ -321,12 +323,29 @@ a {
 // PAGE ------------------------------------------------------------------------
 
 .page {
-  padding: 0 20px;
+  padding: 69px 20px 0;
+
+  @include breakpoint($breakpoint-content) {
+    padding-top: 89px;
+  }
+
+  @include breakpoint($breakpoint-large) {
+    padding-top: 0;
+  }
 
   h1 {
-    font-size: 6em;
+    font-style: 3em;
     font-weight: 700;
-    margin: .67em 0 .5em;
+    margin: 1.2em 0 .5em;
+
+    @include breakpoint($breakpoint-small) {
+      font-size: 3.6em;
+    }
+
+    @include breakpoint($breakpoint-medium) {
+      font-size: 6em;
+      margin: .67em 0 .5em;
+    }
   }
 
   figure {
