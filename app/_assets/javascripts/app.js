@@ -1,9 +1,6 @@
 //= require bower_components/jquery/dist/jquery.min.js
 
 $(function() {
-  var match_date, match_date_friendly, previous_date;
-
-  $('.match').each(function(i) {
   var nearFuture = 86400000; // 1 day in milliseconds
   var currentDayTimestamp, currentDayCounter = 0;
 
