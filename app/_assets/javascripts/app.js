@@ -24,13 +24,20 @@ $(function() {
 
     previous_date = match_date;
   });
-
-  // SVG fallback
-  /*
-  if (!Modernizr.svg) {
-    $("img[src$='.svg']").each(function() {
-      $(this).attr("src", $(this).data('fallback'));
-    });
-  }
-  */
 });
+
+// Don't open internal links in Mobile Safari when running stand alone web app
+// http://www.bennadel.com/blog/2302-preventing-links-in-standalone-iphone-applications-from-opening-in-mobile-safari.htm
+$(document).on(
+  "click",
+  ".link-internal",
+  function(event){
+    // Stop the default behavior of the browser, which
+    // is to change the URL of the page.
+    event.preventDefault();
+
+    // Manually change the location of the page to stay in
+    // "Standalone" mode and change the URL at the same time.
+    location.href = $(this).attr("href");
+  }
+);
