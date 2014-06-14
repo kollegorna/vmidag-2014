@@ -37,7 +37,7 @@ $(function() {
     $time.text(date.format('LT'));
 
     // Mark the match if it's currently playing.
-    if (now.isAfter(date) && now.isBefore(dateEnd)) {
+    if (now.isAfter(date.clone().subtract(10, 'hours')) && now.isBefore(dateEnd.clone().subtract(10, 'hours'))) {
       $match.addClass('live');
     }
 
