@@ -448,7 +448,7 @@
   city: Salvador
   channels: TV 2, TV 2 Play
 - date: 2014-07-04 18:00
-  type: Kvartfinale 1
+  type: Kvartfinale
   group: ~
   home_team: ~
   away_team: ~
@@ -456,7 +456,7 @@
   city: Rio de Janeiro
   channels: TV 2, TV 2 Play
 - date: 2014-07-04 22:00
-  type: Kvartfinale 2
+  type: Kvartfinale
   group: ~
   home_team: ~
   away_team: ~
@@ -464,7 +464,7 @@
   city: Fortaleza
   channels: DR1
 - date: 2014-07-05 18:00
-  type: Kvartfinale 3
+  type: Kvartfinale
   group: ~
   home_team: ~
   away_team: ~
@@ -472,7 +472,7 @@
   city: Brasília
   channels: DR1
 - date: 2014-07-05 22:00
-  type: Kvartfinale 4
+  type: Kvartfinale
   group: ~
   home_team: ~
   away_team: ~
@@ -480,7 +480,7 @@
   city: Salvador
   channels: TV 2, TV 2 Play
 - date: 2014-07-08 22:00
-  type: Semifinale 1
+  type: Semifinale
   group: ~
   home_team: ~
   away_team: ~
@@ -488,7 +488,7 @@
   city: Belo Horizonte
   channels: TV 2, TV 2 Play
 - date: 2014-07-09 22:00
-  type: Semifinale 2
+  type: Semifinale
   group: ~
   home_team: ~
   away_team: ~
