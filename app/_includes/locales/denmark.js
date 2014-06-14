@@ -13,8 +13,9 @@ VMIDAG.channels = {
   'TV 2 Play': 'tv2play'
 }
 
-VMIDAG.translate = {
+VMIDAG.strings = {
   'Today': 'VM i dag',
   'Tomorrow': 'I morgen',
-  'Show past matches': 'Vis tidligere kampe'
+  'Show past matches': 'Tidligere kampe',
+  'Show future matches': 'Kommende kampe'
 }

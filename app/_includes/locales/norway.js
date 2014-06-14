@@ -13,8 +13,9 @@ VMIDAG.channels = {
   'TV 2 Sumo': 'tv2sumo'
 }
 
-VMIDAG.translate = {
+VMIDAG.strings = {
   'Today': 'VM i dag',
   'Tomorrow': 'I morgen',
-  'Show past matches': 'Vis tidligere kamper'
+  'Show past matches': 'Tidligere kamper',
+  'Show future matches': 'Kommende kamper'
 }
