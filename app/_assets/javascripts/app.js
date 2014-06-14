@@ -11,7 +11,7 @@ $(function() {
   moment.lang(settings.locale);
 
   // Returns the translated text for the current locale.
-  var translate = function(text) {
+  var t = function(text) {
     return settings.strings[text];
   }
 
@@ -56,11 +56,11 @@ $(function() {
       $container = $('<div id="day-' + currentDayCounter + '"></div>');
 
       if (date.isSame(now, 'day')) {
-        $container.append('<h2 class="matches__heading matches__heading--today">' + translate('Today') + '</h2>');
+        $container.append('<h2 class="matches__heading matches__heading--today">' + t('Today') + '</h2>');
         $container.addClass('present');
       }
       else if (date.isSame(tomorrow, 'day')) {
-        $container.append('<h2 class="matches__heading matches__heading--tomorrow">' + translate('Tomorrow') + '</h2>');
+        $container.append('<h2 class="matches__heading matches__heading--tomorrow">' + t('Tomorrow') + '</h2>');
         $container.addClass('near-future');
       }
       else {
