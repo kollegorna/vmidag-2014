@@ -5,11 +5,14 @@
 //= require bower_components/moment/lang/nb.js
 
 $(function() {
-  moment.lang(VMIDAG.locale);
+  var settings = VMIDAG;
+
+  // Set the locale for dates.
+  moment.lang(settings.locale);
 
   // Returns the translated text for the current locale.
   var translate = function(text) {
-    return VMIDAG.translate[text];
+    return settings.strings[text];
   }
 
   // Get the current and tomorrow's date.
@@ -33,13 +36,13 @@ $(function() {
     var date = moment($time.text().trim(), 'YYYY-MM-DD HH:mm');
     var dateEnd = date.clone().add(115, 'minutes'); // 90 minutes + 15 minute break + overtime (10 minutes max)
 
-    // Display only the time for the match.
-    $time.text(date.format(VMIDAG.timeFormat));
 
     // Mark the match if it's currently playing.
     if (now.isAfter(date.clone().subtract(4, 'hours')) && now.isBefore(dateEnd.clone().subtract(4, 'hours'))) {
       $match.addClass('live');
     }
+    // Display only the time.
+    $time.text(date.format(settings.timeFormat));
 
     // Reuse or create the container for its day.
     var $container;
@@ -61,7 +64,7 @@ $(function() {
         $container.addClass('near-future');
       }
       else {
-        $container.append('<h2 class="matches__heading matches__heading--future">' + date.format(VMIDAG.dateFormat) + '</h2>');
+        $container.append('<h2 class="matches__heading matches__heading--future">' + date.format(settings.dateFormat) + '</h2>');
         $container.addClass(date < now ? 'past' : 'future');
       }
 
@@ -79,7 +82,7 @@ $(function() {
     var channels = [];
     $.each($tv.text().split(', '), function(index, channel) {
       var text = $.trim(channel);
-      var name = VMIDAG.channels[text];
+      var name = settings.channels[text];
       channels.push('<a href="http://bit.ly/vmidag2014-' + name + '">' + text + '</a>');
     });
 
