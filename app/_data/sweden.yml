@@ -4,8 +4,6 @@
   group: A
   home_team: Brasilien
   away_team: Kroatien
-  home_goals: 3
-  away_goals: 1
   stadium: Arena Corinthians
   city: São Paulo
   channels: SVT 1, SVT Play
@@ -14,8 +12,6 @@
   group: A
   home_team: Mexiko
   away_team: Kamerun
-  home_goals: 1
-  away_goals: 0
   stadium: Arena das Dunas
   city: Natal
   channels: TV4, TV4 Play
@@ -24,8 +20,6 @@
   group: B
   home_team: Spanien
   away_team: Holland
-  home_goals: ~
-  away_goals: ~
   stadium: Arena Fonte Nova
   city: Salvador
   channels: SVT 1, SVT Play
@@ -34,8 +28,6 @@
   group: B
   home_team: Chile
   away_team: Australien
-  home_goals: ~
-  away_goals: ~
   stadium: Arena Pantanal
   city: Cuiabá
   channels: TV4, TV4 Play
@@ -44,8 +36,6 @@
   group: C
   home_team: Colombia
   away_team: Grekland
-  home_goals: ~
-  away_goals: ~
   stadium: Estádio Mineirão
   city: Belo Horizonte
   channels: SVT 2, SVT Play
@@ -54,8 +44,6 @@
   group: D
   home_team: Uruguay
   away_team: Costa Rica
-  home_goals: ~
-  away_goals: ~
   stadium: Estádio Castelão
   city: Fortaleza
   channels: TV4, TV4 Play
@@ -64,8 +52,6 @@
   group: D
   home_team: England
   away_team: Italien
-  home_goals: ~
-  away_goals: ~
   stadium: Arena Pernambuco
   city: Recife
   channels: TV4, TV4 Play
@@ -74,8 +60,6 @@
   group: C
   home_team: Elfenbenskusten
   away_team: Japan
-  home_goals: ~
-  away_goals: ~
   stadium: Arena Amazônia
   city: Manaus
   channels: TV4, TV4 Play
@@ -84,8 +68,6 @@
   group: E
   home_team: Schweiz
   away_team: Ecuador
-  home_goals: ~
-  away_goals: ~
   stadium: Estádio Nacional Mané Garrincha
   city: Brasília
   channels: TV4, TV4 Play
@@ -94,8 +76,6 @@
   group: E
   home_team: Frankrike
   away_team: Honduras
-  home_goals: ~
-  away_goals: ~
   stadium: Estádio Beira-Rio
   city: Porto Alegre
   channels: SVT 1, SVT Play
@@ -104,8 +84,6 @@
   group: F
   home_team: Argentina
   away_team: Bosnien-Hercegovina
-  home_goals: ~
-  away_goals: ~
   stadium: Estádio do Maracanã
   city: Rio de Janeiro
   channels: TV4, TV4 Play
@@ -114,8 +92,6 @@
   group: G
   home_team: Tyskland
   away_team: Portugal
-  home_goals: ~
-  away_goals: ~
   stadium: Arena Fonte Nova
   city: Salvador
   channels: SVT 2, SVT Play
@@ -124,8 +100,6 @@
   group: F
   home_team: Iran
   away_team: Nigeria
-  home_goals: ~
-  away_goals: ~
   stadium: Arena da Baixada
   city: Curitiba
   channels: TV4, TV4 Play
@@ -134,8 +108,6 @@
   group: G
   home_team: Ghana
   away_team: USA
-  home_goals: ~
-  away_goals: ~
   stadium: Arena das Dunas
   city: Natal
   channels: SVT 1, SVT Play
@@ -144,8 +116,6 @@
   group: H
   home_team: Belgien
   away_team: Algeriet
-  home_goals: ~
-  away_goals: ~
   stadium: Estádio Mineirão
   city: Belo Horizonte
   channels: SVT 2, SVT Play
@@ -154,8 +124,6 @@
   group: A
   home_team: Brasilien
   away_team: Mexiko
-  home_goals: ~
-  away_goals: ~
   stadium: Estádio Castelão
   city: Fortaleza
   channels: TV4, TV4 Play
@@ -164,8 +132,6 @@
   group: H
   home_team: Ryssland
   away_team: Sydkorea
-  home_goals: ~
-  away_goals: ~
   stadium: Arena Pantanal
   city: Cuiabá
   channels: SVT 1, SVT Play
@@ -174,8 +140,6 @@
   group: B
   home_team: Australien
   away_team: Holland
-  home_goals: ~
-  away_goals: ~
   stadium: Estádio Beira-Rio
   city: Porto Alegre
   channels: SVT 2, SVT Play
@@ -184,8 +148,6 @@
   group: B
   home_team: Spanien
   away_team: Chile
-  home_goals: ~
-  away_goals: ~
   stadium: Estádio do Maracanã
   city: Rio de Janeiro
   channels: TV4, TV4 Play
@@ -194,8 +156,6 @@
   group: A
   home_team: Kamerun
   away_team: Kroatien
-  home_goals: ~
-  away_goals: ~
   stadium: Arena Amazônia
   city: Manaus
   channels: SVT 1, SVT Play
@@ -204,8 +164,6 @@
   group: C
   home_team: Colombia
   away_team: Elfenbenskusten
-  home_goals: ~
-  away_goals: ~
   stadium: Estádio Nacional Mané Garrincha
   city: Brasília
   channels: TV4, TV4 Play
@@ -214,8 +172,6 @@
   group: D
   home_team: Uruguay
   away_team: England
-  home_goals: ~
-  away_goals: ~
   stadium: Arena Corinthians
   city: São Paulo
   channels: SVT 1, SVT Play
@@ -224,8 +180,6 @@
   group: C
   home_team: Japan
   away_team: Grekland
-  home_goals: ~
-  away_goals: ~
   stadium: Arena das Dunas
   city: Natal
   channels: TV4, TV4 Play
@@ -234,8 +188,6 @@
   group: D
   home_team: Italien
   away_team: Costa Rica
-  home_goals: ~
-  away_goals: ~
   stadium: Arena Pernambuco
   city: Recife
   channels: SVT 2, SVT Play
@@ -244,8 +196,6 @@
   group: E
   home_team: Schweiz
   away_team: Frankrike
-  home_goals: ~
-  away_goals: ~
   stadium: Arena Fonte Nova
   city: Salvador
   channels: TV4, TV4 Play
@@ -254,8 +204,6 @@
   group: E
   home_team: Honduras
   away_team: Ecuador
-  home_goals: ~
-  away_goals: ~
   stadium: Arena da Baixada
   city: Curitiba
   channels: SVT 1, SVT Play
@@ -264,8 +212,6 @@
   group: F
   home_team: Argentina
   away_team: Iran
-  home_goals: ~
-  away_goals: ~
   stadium: Estádio Mineirão
   city: Belo Horizonte
   channels: TV4, TV4 Play
@@ -274,8 +220,6 @@
   group: G
   home_team: Tyskland
   away_team: Ghana
-  home_goals: ~
-  away_goals: ~
   stadium: Estádio Castelão
   city: Fortaleza
   channels: SVT 1, SVT Play
@@ -284,8 +228,6 @@
   group: F
   home_team: Nigeria
   away_team: Bosnien-Hercegovina
-  home_goals: ~
-  away_goals: ~
   stadium: Arena Pantanal
   city: Cuiabá
   channels: TV4, TV4 Play
@@ -294,8 +236,6 @@
   group: H
   home_team: Belgien
   away_team: Ryssland
-  home_goals: ~
-  away_goals: ~
   stadium: Estádio do Maracanã
   city: Rio de Janeiro
   channels: SVT 2, SVT Play
@@ -304,8 +244,6 @@
   group: H
   home_team: Sydkorea
   away_team: Algeriet
-  home_goals: ~
-  away_goals: ~
   stadium: Estádio Beira-Rio
   city: Porto Alegre
   channels: TV4, TV4 Play
@@ -314,8 +252,6 @@
   group: G
   home_team: USA
   away_team: Portugal
-  home_goals: ~
-  away_goals: ~
   stadium: Arena Amazônia
   city: Manaus
   channels: SVT 1, SVT Play
@@ -324,8 +260,6 @@
   group: B
   home_team: Holland
   away_team: Chile
-  home_goals: ~
-  away_goals: ~
   stadium: Arena da Baixada
   city: Curitiba
   channels: TV4, TV4 Play
@@ -334,8 +268,6 @@
   group: B
   home_team: Australien
   away_team: Spanien
-  home_goals: ~
-  away_goals: ~
   stadium: Arena Corinthians
   city: São Paulo
   channels: TV12, TV4 Play
@@ -344,8 +276,6 @@
   group: A
   home_team: Kamerun
   away_team: Brasilien
-  home_goals: ~
-  away_goals: ~
   stadium: Estádio Nacional Mané Garrincha
   city: Brasília
   channels: SVT 1, SVT Play
@@ -354,8 +284,6 @@
   group: A
   home_team: Kroatien
   away_team: Mexiko
-  home_goals: ~
-  away_goals: ~
   stadium: Arena Pernambuco
   city: Recife
   channels: SVT 24, SVT Play
@@ -364,8 +292,6 @@
   group: D
   home_team: Costa Rica
   away_team: England
-  home_goals: ~
-  away_goals: ~
   stadium: Arena das Dunas
   city: Natal
   channels: Kunskapskanalen, SVT Play
@@ -374,8 +300,6 @@
   group: D
   home_team: Italien
   away_team: Uruguay
-  home_goals: ~
-  away_goals: ~
   stadium: Estádio Mineirão
   city: Belo Horizonte
   channels: SVT 2, SVT Play
@@ -384,8 +308,6 @@
   group: C
   home_team: Grekland
   away_team: Elfenbenskusten
-  home_goals: ~
-  away_goals: ~
   stadium: Arena Pantanal
   city: Cuiabá
   channels: TV4, TV4 Play
@@ -394,8 +316,6 @@
   group: C
   home_team: Japan
   away_team: Colombia
-  home_goals: ~
-  away_goals: ~
   stadium: Estádio Castelão
   city: Fortaleza
   channels: TV12, TV4 Play
@@ -404,8 +324,6 @@
   group: F
   home_team: Bosnien-Hercegovina
   away_team: Iran
-  home_goals: ~
-  away_goals: ~
   stadium: Estádio Beira-Rio
   city: Porto Alegre
   channels: TV12, TV4 Play
@@ -414,8 +332,6 @@
   group: F
   home_team: Nigeria
   away_team: Argentina
-  home_goals: ~
-  away_goals: ~
   stadium: Arena Fonte Nova
   city: Salvador
   channels: TV4, TV4 Play
@@ -424,8 +340,6 @@
   group: E
   home_team: Ecuador
   away_team: Frankrike
-  home_goals: ~
-  away_goals: ~
   stadium: Arena Amazônia
   city: Manaus
   channels: SVT 1, SVT Play
@@ -434,8 +348,6 @@
   group: E
   home_team: Honduras
   away_team: Schweiz
-  home_goals: ~
-  away_goals: ~
   stadium: Estádio do Maracanã
   city: Rio de Janeiro
   channels: SVT 24, SVT Play
@@ -444,8 +356,6 @@
   group: G
   home_team: Portugal
   away_team: Ghana
-  home_goals: ~
-  away_goals: ~
   stadium: Arena Pernambuco
   city: Recife
   channels: SVT 2, SVT Play
@@ -454,8 +364,6 @@
   group: G
   home_team: USA
   away_team: Tyskland
-  home_goals: ~
-  away_goals: ~
   stadium: Estádio Nacional Mané Garrincha
   city: Brasília
   channels: Kunskapskanalen, SVT Play
@@ -464,8 +372,6 @@
   group: H
   home_team: Algeriet
   away_team: Ryssland
-  home_goals: ~
-  away_goals: ~
   stadium: Arena Corinthians
   city: São Paulo
   channels: TV12, TV4 Play
@@ -474,8 +380,6 @@
   group: H
   home_team: Sydkorea
   away_team: Belgien
-  home_goals: ~
-  away_goals: ~
   stadium: Arena da Baixada
   city: Curitiba
   channels: TV4, TV4 Play
@@ -484,8 +388,6 @@
   group: ~
   home_team: 1A
   away_team: 2B
-  home_goals: ~
-  away_goals: ~
   stadium: Estádio Mineirão
   city: Belo Horizonte
   channels: SVT 2, SVT Play
@@ -494,8 +396,6 @@
   group: ~
   home_team: 1C
   away_team: 2D
-  home_goals: ~
-  away_goals: ~
   stadium: Estádio do Maracanã
   city: Rio de Janeiro
   channels: TV4, TV4 Play
@@ -504,8 +404,6 @@
   group: ~
   home_team: 1B
   away_team: 2A
-  home_goals: ~
-  away_goals: ~
   stadium: Estádio Castelão
   city: Fortaleza
   channels: TV4, TV4 Play
@@ -514,8 +412,6 @@
   group: ~
   home_team: 1D
   away_team: 2C
-  home_goals: ~
-  away_goals: ~
   stadium: Arena Pernambuco
   city: Recife
   channels: SVT 1, SVT Play
@@ -524,8 +420,6 @@
   group: ~
   home_team: 1E
   away_team: 2F
-  home_goals: ~
-  away_goals: ~
   stadium: Estádio Nacional Mané Garrincha
   city: Brasília
   channels: SVT 2, SVT Play
@@ -534,8 +428,6 @@
   group: ~
   home_team: 1G
   away_team: 2H
-  home_goals: ~
-  away_goals: ~
   stadium: Estádio Beira-Rio
   city: Porto Alegre
   channels: TV4, TV4 Play
@@ -544,8 +436,6 @@
   group: ~
   home_team: 1F
   away_team: 2E
-  home_goals: ~
-  away_goals: ~
   stadium: Arena Corinthians
   city: São Paulo
   channels: TV4, TV4 Play
@@ -554,8 +444,6 @@
   group: ~
   home_team: 1H
   away_team: 2G
-  home_goals: ~
-  away_goals: ~
   stadium: Arena Fonte Nova
   city: Salvador
   channels: SVT 1, SVT Play
@@ -564,8 +452,6 @@
   group: ~
   home_team: ~
   away_team: ~
-  home_goals: ~
-  away_goals: ~
   stadium: Estádio do Maracanã
   city: Rio de Janeiro
   channels: SVT 2, SVT Play
@@ -574,8 +460,6 @@
   group: ~
   home_team: ~
   away_team: ~
-  home_goals: ~
-  away_goals: ~
   stadium: Estádio Castelão
   city: Fortaleza
   channels: TV4, TV4 Play
@@ -584,8 +468,6 @@
   group: ~
   home_team: ~
   away_team: ~
-  home_goals: ~
-  away_goals: ~
   stadium: Estádio Nacional Mané Garrincha
   city: Brasília
   channels: TV4, TV4 Play
@@ -594,8 +476,6 @@
   group: ~
   home_team: ~
   away_team: ~
-  home_goals: ~
-  away_goals: ~
   stadium: Arena Fonte Nova
   city: Salvador
   channels: SVT 1, SVT Play
@@ -604,8 +484,6 @@
   group: ~
   home_team: ~
   away_team: ~
-  home_goals: ~
-  away_goals: ~
   stadium: Estádio Mineirão
   city: Belo Horizonte
   channels: TV4, TV4 Play
@@ -614,8 +492,6 @@
   group: ~
   home_team: ~
   away_team: ~
-  home_goals: ~
-  away_goals: ~
   stadium: Arena Corinthians
   city: São Paulo
   channels: SVT 1, SVT Play
@@ -624,8 +500,6 @@
   group: ~
   home_team: ~
   away_team: ~
-  home_goals: ~
-  away_goals: ~
   stadium: Estádio Nacional Mané Garrincha
   city: Brasília
   channels: SVT 1, SVT Play
@@ -634,8 +508,6 @@
   group: ~
   home_team: ~
   away_team: ~
-  home_goals: ~
-  away_goals: ~
   stadium: Estádio do Maracanã
   city: Rio de Janeiro
   channels: TV4, TV4 Play
