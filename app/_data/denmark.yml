@@ -14,7 +14,7 @@
   away_team: Cameroun
   stadium: Arena das Dunas
   city: Natal
-  channels: DR1, DR TV
+  channels: DR1
 - date: 2014-06-13 21:00
   type: Gruppe
   group: B
@@ -38,7 +38,7 @@
   away_team: Grækenland
   stadium: Estádio Mineirão
   city: Belo Horizonte
-  channels: DR1, DR TV
+  channels: DR1
 - date: 2014-06-14 21:00
   type: Gruppe
   group: D
@@ -46,7 +46,7 @@
   away_team: Costa Rica
   stadium: Estádio Castelão
   city: Fortaleza
-  channels: DR1, DR TV
+  channels: DR1
 - date: 2014-06-14 23:55
   type: Gruppe
   group: D
@@ -78,7 +78,7 @@
   away_team: Honduras
   stadium: Estádio Beira-Rio
   city: Porto Alegre
-  channels: DR1, DR TV
+  channels: DR1
 - date: 2014-06-15 23:55
   type: Gruppe
   group: F
@@ -94,7 +94,7 @@
   away_team: Portugal
   stadium: Arena Fonte Nova
   city: Salvador
-  channels: DR1, DR TV
+  channels: DR1
 - date: 2014-06-16 21:00
   type: Gruppe
   group: F
@@ -126,7 +126,7 @@
   away_team: Mexico
   stadium: Estádio Castelão
   city: Fortaleza
-  channels: DR1, DR TV
+  channels: DR1
 - date: 2014-06-17 23:55
   type: Gruppe
   group: H
@@ -134,7 +134,7 @@
   away_team: Sydkorea
   stadium: Arena Pantanal
   city: Cuiabá
-  channels: DR1, DR TV
+  channels: DR1
 - date: 2014-06-18 18:00
   type: Gruppe
   group: B
@@ -142,7 +142,7 @@
   away_team: Holland
   stadium: Estádio Beira-Rio
   city: Porto Alegre
-  channels: DR1, DR TV
+  channels: DR1
 - date: 2014-06-18 21:00
   type: Gruppe
   group: B
@@ -166,7 +166,7 @@
   away_team: Elfenbenskysten
   stadium: Estádio Nacional Mané Garrincha
   city: Brasília
-  channels: DR1, DR TV
+  channels: DR1
 - date: 2014-06-19 21:00
   type: Gruppe
   group: D
@@ -174,7 +174,7 @@
   away_team: England
   stadium: Arena Corinthians
   city: São Paulo
-  channels: DR1, DR TV
+  channels: DR1
 - date: 2014-06-19 23:55
   type: Gruppe
   group: C
@@ -190,7 +190,7 @@
   away_team: Costa Rica
   stadium: Arena Pernambuco
   city: Recife
-  channels: DR1, DR TV
+  channels: DR1
 - date: 2014-06-20 21:00
   type: Gruppe
   group: E
@@ -206,7 +206,7 @@
   away_team: Ecuador
   stadium: Arena da Baixada
   city: Curitiba
-  channels: DR1, DR TV
+  channels: DR1
 - date: 2014-06-21 18:00
   type: Gruppe
   group: F
@@ -214,7 +214,7 @@
   away_team: Iran
   stadium: Estádio Mineirão
   city: Belo Horizonte
-  channels: DR1, DR TV
+  channels: DR1
 - date: 2014-06-21 21:00
   type: Gruppe
   group: G
@@ -230,7 +230,7 @@
   away_team: Bosnien-Hercegovina
   stadium: Arena Pantanal
   city: Cuiabá
-  channels: DR1, DR TV
+  channels: DR1
 - date: 2014-06-22 18:00
   type: Gruppe
   group: H
@@ -246,7 +246,7 @@
   away_team: Algeriet
   stadium: Estádio Beira-Rio
   city: Porto Alegre
-  channels: DR1, DR TV
+  channels: DR1
 - date: 2014-06-22 23:55
   type: Gruppe
   group: G
@@ -262,7 +262,7 @@
   away_team: Chile
   stadium: Arena da Baixada
   city: Curitiba
-  channels: DR1/DR3, DR TV
+  channels: DR1/DR3
 - date: 2014-06-23 18:00
   type: Gruppe
   group: B
@@ -270,7 +270,7 @@
   away_team: Spanien
   stadium: Arena Corinthians
   city: São Paulo
-  channels: DR1/DR3, DR TV
+  channels: DR1/DR3
 - date: 2014-06-23 22:00
   type: Gruppe
   group: A
@@ -294,7 +294,7 @@
   away_team: England
   stadium: Arena das Dunas
   city: Natal
-  channels: DR1/DR3, DR TV
+  channels: DR1/DR3
 - date: 2014-06-24 18:00
   type: Gruppe
   group: D
@@ -302,7 +302,7 @@
   away_team: Uruguay
   stadium: Estádio Mineirão
   city: Belo Horizonte
-  channels: DR1/DR3, DR TV
+  channels: DR1/DR3
 - date: 2014-06-24 22:00
   type: Gruppe
   group: C
@@ -326,7 +326,7 @@
   away_team: Iran
   stadium: Estádio Beira-Rio
   city: Porto Alegre
-  channels: DR1/DR3, DR TV
+  channels: DR1/DR3
 - date: 2014-06-25 18:00
   type: Gruppe
   group: F
@@ -334,7 +334,7 @@
   away_team: Argentina
   stadium: Arena Fonte Nova
   city: Salvador
-  channels: DR1/DR3, DR TV
+  channels: DR1/DR3
 - date: 2014-06-25 22:00
   type: Gruppe
   group: E
@@ -374,7 +374,7 @@
   away_team: Rusland
   stadium: Arena Corinthians
   city: São Paulo
-  channels: DR1/DR3, DR TV
+  channels: DR1/DR3
 - date: 2014-06-26 22:00
   type: Gruppe
   group: H
@@ -382,7 +382,7 @@
   away_team: Belgien
   stadium: Arena da Baixada
   city: Curitiba
-  channels: DR1/DR3, DR TV
+  channels: DR1/DR3
 - date: 2014-06-28 18:00
   type: 1/8-finale
   group: ~
@@ -398,7 +398,7 @@
   away_team: 2D
   stadium: Estádio do Maracanã
   city: Rio de Janeiro
-  channels: DR1, DR TV
+  channels: DR1
 - date: 2014-06-29 18:00
   type: 1/8-finale
   group: ~
@@ -406,7 +406,7 @@
   away_team: 2A
   stadium: Estádio Castelão
   city: Fortaleza
-  channels: DR1, DR TV
+  channels: DR1
 - date: 2014-06-29 22:00
   type: 1/8-finale
   group: ~
@@ -414,7 +414,7 @@
   away_team: 2C
   stadium: Arena Pernambuco
   city: Recife
-  channels: DR1, DR TV
+  channels: DR1
 - date: 2014-06-30 18:00
   type: 1/8-finale
   group: ~
@@ -438,7 +438,7 @@
   away_team: 2E
   stadium: Arena Corinthians
   city: São Paulo
-  channels: DR1, DR TV
+  channels: DR1
 - date: 2014-07-01 22:00
   type: 1/8-finale
   group: ~
@@ -462,7 +462,7 @@
   away_team: ~
   stadium: Estádio Castelão
   city: Fortaleza
-  channels: DR1, DR TV
+  channels: DR1
 - date: 2014-07-05 18:00
   type: Kvartfinale 3
   group: ~
@@ -470,7 +470,7 @@
   away_team: ~
   stadium: Estádio Nacional Mané Garrincha
   city: Brasília
-  channels: DR1, DR TV
+  channels: DR1
 - date: 2014-07-05 22:00
   type: Kvartfinale 4
   group: ~
@@ -494,7 +494,7 @@
   away_team: ~
   stadium: Arena Corinthians
   city: São Paulo
-  channels: DR1, DR TV
+  channels: DR1
 - date: 2014-07-12 22:00
   type: Bronzekamp
   group: ~
@@ -502,7 +502,7 @@
   away_team: ~
   stadium: Estádio Nacional Mané Garrincha
   city: Brasília
-  channels: DR1, DR TV
+  channels: DR1
 - date: 2014-07-13 21:00
   type: Finale
   group: ~
@@ -510,4 +510,4 @@
   away_team: ~
   stadium: Estádio do Maracanã
   city: Rio de Janeiro
-  channels: DR1, DR TV, TV 2, TV 2 Play
+  channels: DR1, TV 2, TV 2 Play
