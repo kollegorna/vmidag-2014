@@ -268,11 +268,19 @@ a {
 }
 
 .matches {
-  .past {
+  .past,
+  .near-future,
+  .future {
     display: none;
   }
 
-  &.all .past {
+  .past.ongoing {
+    display: block;
+  }
+
+  &.past-matches .past,
+  &.future-matches .near-future,
+  &.future-matches .future {
     display: block;
   }
 }
