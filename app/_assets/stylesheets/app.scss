@@ -247,8 +247,15 @@ a {
 }
 
 .matches-header {
-  display: none; // @TODO !!!
-  margin: 0 0 40px;
+  margin: 40px 0;
+}
+
+.matches-footer {
+  margin: 40px 0 0;
+}
+
+.matches-header,
+.matches-footer {
   text-align: center;
 
   .btn {
