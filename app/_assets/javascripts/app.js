@@ -115,8 +115,8 @@ $(function() {
     var channels = [];
     $.each($tv.text().split(', '), function(index, channel) {
       var text = $.trim(channel);
-      var name = settings.channels[text];
-      channels.push('<a href="http://bit.ly/vmidag2014-' + name + '">' + text + '</a>');
+      var url = settings.channels[text];
+      channels.push('<a href="' + url + '">' + text + '</a>');
     });
 
     $tv.html(channels.join(' '));

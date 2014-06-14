@@ -5,12 +5,11 @@ VMIDAG.dateFormat = 'dddd D. MMMM';
 VMIDAG.timeFormat = 'HH:mm';
 
 VMIDAG.channels = {
-  'DR1': 'dr',
-  'DR1/DR3': 'dr',
-  'DR TV': 'drtv',
-  'TV 2': 'tv2-danmark',
-  'TV 2 Zulu': 'tv2zulu',
-  'TV 2 Play': 'tv2play'
+  'DR1': 'http://www.dr.dk/tv/live/dr1',
+  'DR1/DR3': 'http://www.dr.dk/tv/live',
+  'TV 2': 'http://vmhf2014.tv2.dk/',
+  'TV 2 Zulu': 'http://vmhf2014.tv2.dk/',
+  'TV 2 Play': 'http://play.tv2.dk/live'
 }
 
 VMIDAG.strings = {
