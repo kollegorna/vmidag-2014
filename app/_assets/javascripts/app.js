@@ -34,7 +34,7 @@ $(function() {
     var dateEnd = date.clone().add(115, 'minutes'); // 90 minutes + 15 minute break + overtime (10 minutes max)
 
     // Display only the time for the match.
-    $time.text(date.format('LT'));
+    $time.text(date.format(VMIDAG.timeFormat));
 
     // Mark the match if it's currently playing.
     if (now.isAfter(date.clone().subtract(10, 'hours')) && now.isBefore(dateEnd.clone().subtract(10, 'hours'))) {

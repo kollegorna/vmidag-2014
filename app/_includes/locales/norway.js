@@ -2,6 +2,7 @@ VMIDAG = {};
 
 VMIDAG.locale = 'nb';
 VMIDAG.dateFormat = 'dddd D. MMMM';
+VMIDAG.timeFormat = 'HH:mm';
 
 VMIDAG.channels = {
   'NRK 1': 'nrk',
@@ -15,5 +16,5 @@ VMIDAG.channels = {
 VMIDAG.translate = {
   'Today': 'VM i dag',
   'Tomorrow': 'I morgen',
-  'Show past matches': 'Vis eldre kamper'
+  'Show past matches': 'Vis tidligere kamper'
 }

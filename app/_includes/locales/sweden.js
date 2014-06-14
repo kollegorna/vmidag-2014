@@ -2,6 +2,7 @@ VMIDAG = {};
 
 VMIDAG.locale = 'sv';
 VMIDAG.dateFormat = 'dddd D/M';
+VMIDAG.timeFormat = 'HH:mm';
 
 VMIDAG.channels = {
   'SVT 1': 'svt',
