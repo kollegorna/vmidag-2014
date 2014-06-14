@@ -19,3 +19,7 @@ node_modules/
 # Vendor
 /vendor
 app/_assets/vendor
+
+# System files.
+fabfile.pyc
+.DS_Store
