@@ -37,7 +37,7 @@ $(function() {
     $time.text(date.format(VMIDAG.timeFormat));
 
     // Mark the match if it's currently playing.
-    if (now.isAfter(date.clone().subtract(10, 'hours')) && now.isBefore(dateEnd.clone().subtract(10, 'hours'))) {
+    if (now.isAfter(date.clone().subtract(4, 'hours')) && now.isBefore(dateEnd.clone().subtract(4, 'hours'))) {
       $match.addClass('live');
     }
 
