@@ -15,8 +15,9 @@ VMIDAG.channels = {
   'TV12': 'tv12'
 };
 
-VMIDAG.translate = {
+VMIDAG.strings = {
   'Today': 'VM idag',
   'Tomorrow': 'I morgon',
-  'Show past matches': 'Visa tidigare matcher'
+  'Show past matches': 'Tidigare matcher',
+  'Show future matches': 'Kommande matcher'
 };
