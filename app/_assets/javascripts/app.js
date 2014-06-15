@@ -20,6 +20,9 @@ $(function() {
   var $header = $('.header');
   var $matches = $('.matches');
 
+  // Set body min height to window height to make sure bg image looks nice.
+  $body.css('min-height', $(window).height());
+
   // If on a small screen (responsive layout), snap to the topmost match.
   if ($header.offset().left == 0) {
     $body.scrollTop(120); // .matches-header's height + margins
