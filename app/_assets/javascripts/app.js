@@ -21,7 +21,9 @@ $(function() {
   var $matches = $('.matches');
 
   // Set body min height to window height to make sure bg image looks nice.
-  $body.css('min-height', $(window).height());
+  if (Modernizr.mq('(min-width: 1024px)')) {
+    $body.css('min-height', $(window).height());
+  }
 
   // If on a small screen (responsive layout), snap to the topmost match.
   if ($header.offset().left == 0) {
