@@ -386,64 +386,64 @@
 - date: 2014-06-28 18:00
   type: Åttondelsfinal
   group: ~
-  home_team: 1A
-  away_team: 2B
+  home_team: Brasilien
+  away_team: Chile
   stadium: Estádio Mineirão
   city: Belo Horizonte
   channels: SVT 2, SVT Play
 - date: 2014-06-28 22:00
   type: Åttondelsfinal
   group: ~
-  home_team: 1C
-  away_team: 2D
+  home_team: Colombia
+  away_team: Uruguay
   stadium: Estádio do Maracanã
   city: Rio de Janeiro
   channels: TV4, TV4 Play
 - date: 2014-06-29 18:00
   type: Åttondelsfinal
   group: ~
-  home_team: 1B
-  away_team: 2A
+  home_team: Holland
+  away_team: Mexiko
   stadium: Estádio Castelão
   city: Fortaleza
   channels: TV4, TV4 Play
 - date: 2014-06-29 22:00
   type: Åttondelsfinal
   group: ~
-  home_team: 1D
-  away_team: 2C
+  home_team: Costa Rica
+  away_team: Grekland
   stadium: Arena Pernambuco
   city: Recife
   channels: SVT 1, SVT Play
 - date: 2014-06-30 18:00
   type: Åttondelsfinal
   group: ~
-  home_team: 1E
-  away_team: 2F
+  home_team: Frankrike
+  away_team: Nigeria
   stadium: Estádio Nacional Mané Garrincha
   city: Brasília
   channels: SVT 2, SVT Play
 - date: 2014-06-30 22:00
   type: Åttondelsfinal
   group: ~
-  home_team: 1G
-  away_team: 2H
+  home_team: Tyskland
+  away_team: Algeriet
   stadium: Estádio Beira-Rio
   city: Porto Alegre
   channels: TV4, TV4 Play
 - date: 2014-07-01 18:00
   type: Åttondelsfinal
   group: ~
-  home_team: 1F
-  away_team: 2E
+  home_team: Argentina
+  away_team: Schweiz
   stadium: Arena Corinthians
   city: São Paulo
   channels: TV4, TV4 Play
 - date: 2014-07-01 22:00
   type: Åttondelsfinal
   group: ~
-  home_team: 1H
-  away_team: 2G
+  home_team: Belgien
+  away_team: USA
   stadium: Arena Fonte Nova
   city: Salvador
   channels: SVT 1, SVT Play
