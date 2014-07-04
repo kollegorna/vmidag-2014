@@ -450,32 +450,32 @@
 - date: 2014-07-04 18:00
   type: Kvartsfinal
   group: ~
-  home_team: ~
-  away_team: ~
+  home_team: Frankrike
+  away_team: Tyskland
   stadium: Estádio do Maracanã
   city: Rio de Janeiro
   channels: SVT 2, SVT Play
 - date: 2014-07-04 22:00
   type: Kvartsfinal
   group: ~
-  home_team: ~
-  away_team: ~
+  home_team: Brasilien
+  away_team: Colombia
   stadium: Estádio Castelão
   city: Fortaleza
   channels: TV4, TV4 Play
 - date: 2014-07-05 18:00
   type: Kvartsfinal
   group: ~
-  home_team: ~
-  away_team: ~
+  home_team: Argentina
+  away_team: Belgien
   stadium: Estádio Nacional Mané Garrincha
   city: Brasília
   channels: TV4, TV4 Play
 - date: 2014-07-05 22:00
   type: Kvartsfinal
   group: ~
-  home_team: ~
-  away_team: ~
+  home_team: Holland
+  away_team: Costa Rica
   stadium: Arena Fonte Nova
   city: Salvador
   channels: SVT 1, SVT Play
